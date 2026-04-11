@@ -20,6 +20,9 @@ const TitleScreen: React.FC<TitleScreenProps> = ({ onStart }) => {
       
       <div className="title-content">
         <p>1プレイ10問！サクッと遊んで<br />パデルの知識を深めよう♪</p>
+        <p className="disclaimer">
+          ※一部の問題（心構え・戦術・メンタル対策）は、初心者が試合で不安を減らすための代表的な考え方をもとにしています。必ずしも唯一の正解ではなく、コーチやプレースタイルによって異なる場合があります。
+        </p>
       </div>
 
       <button className="start-button" onClick={handleStart}>

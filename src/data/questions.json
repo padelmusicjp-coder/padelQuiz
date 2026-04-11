@@ -501,5 +501,3739 @@
       "tactics",
       "multiple"
     ]
+  },
+  {
+    "id": "q_017",
+    "categoryId": "rules",
+    "difficulty": 1,
+    "question": "試合中に水分補給をしてよいタイミングはいつですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "チェンジコートやポイント間",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ラリー中でも自由に飲める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "サーブのトス中",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "飲んではいけない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "基本的にはチェンジコート時やポイント間の自然な間で水分補給が可能です。長く試合を止めすぎないことがマナーです。",
+    "tags": [
+      "rules",
+      "match"
+    ]
+  },
+  {
+    "id": "q_018",
+    "categoryId": "rules",
+    "difficulty": 1,
+    "question": "サーブの順番を間違えてしまった場合、どうするのが正しいですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "気づいた時点で正しい順番に戻す",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "最初からそのゲームをやり直す",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手に1点入る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "そのまま最後まで続ける",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "気づいた時点で正しい順番に戻します。すでに終わったポイントは原則そのまま有効です。",
+    "tags": [
+      "rules",
+      "serve",
+      "match"
+    ]
+  },
+  {
+    "id": "q_019",
+    "categoryId": "rules",
+    "difficulty": 1,
+    "question": "試合中にコーチがコートの外からアドバイスをしてもよいですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "大会ルールによるが基本は制限されることが多い",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "いつでも自由にできる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "絶対に禁止されている",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "選手1人につき1回だけ可能",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "一般的な公式試合ではコーチングは禁止または制限されていることが多いです。大会要項の確認が大切です。",
+    "tags": [
+      "rules",
+      "tournament"
+    ]
+  },
+  {
+    "id": "q_020",
+    "categoryId": "tactics",
+    "difficulty": 1,
+    "question": "相手が2人ともネットについている時の基本的な選択はどれですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ロブで相手を後ろに下げる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "強打で真正面を抜く",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "必ずドロップショットを打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "壁に直接ぶつける",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手がネットにいる時は足元かロブが基本です。特に初心者はまずロブで時間を作るのが安全です。",
+    "tags": [
+      "tactics",
+      "lob",
+      "net"
+    ]
+  },
+  {
+    "id": "q_021",
+    "categoryId": "tactics",
+    "difficulty": 2,
+    "question": "味方と2人で守備をする時の基本ポジションはどれですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "横並びでセンターを意識する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "前後に縦並びになる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "1人は必ずネットに出る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "片側に2人とも寄る",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "守備時は2人で横並びになり、センターを意識してカバーするのが基本です。",
+    "tags": [
+      "tactics",
+      "position"
+    ]
+  },
+  {
+    "id": "q_022",
+    "categoryId": "terminology",
+    "difficulty": 1,
+    "question": "「ボレー（Volea）」とはどのタイミングで打つショットですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "バウンドする前に打つ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "壁に当たった後に打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "2バウンド後に打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "必ずスマッシュで打つ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ボールが地面にバウンドする前にノーバウンドで打つショットです。ネット前で多用されます。",
+    "tags": [
+      "terminology",
+      "volley"
+    ]
+  },
+  {
+    "id": "q_023",
+    "categoryId": "rules",
+    "difficulty": 2,
+    "question": "相手の打球が自分コートで1回バウンドした後、自分側の壁に当たりました。返球できますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "返球できる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "失点になる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "必ずロブで返さなければならない",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "味方しか打てない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "パデルでは自分コートで1バウンドした後に壁を使って返球することができます。これがパデルの大きな特徴です。",
+    "tags": [
+      "rules",
+      "walls"
+    ]
+  },
+  {
+    "id": "q_024",
+    "categoryId": "tactics",
+    "difficulty": 2,
+    "question": "初心者がラリーを安定させるために最も大切な考え方はどれですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "速さより続けることを優先する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "毎回強打する",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "必ず決め球を狙う",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "全てノーバウンドで返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "まずは速い球よりも「相手コートに返し続けること」が大切です。続ける中でコースやショットを覚えていきます。",
+    "tags": [
+      "tactics",
+      "beginner"
+    ]
+  },
+  {
+    "id": "q_025",
+    "categoryId": "rules",
+    "difficulty": 2,
+    "question": "サーブがネットに当たって正しいサービスボックスに入った場合はどうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "レットで打ち直し",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "そのままイン",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手のポイント",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "パデルでもテニス同様レットとなり、打ち直しです。",
+    "tags": [
+      "rules",
+      "serve"
+    ]
+  },
+  {
+    "id": "q_026",
+    "categoryId": "tactics",
+    "difficulty": 2,
+    "question": "味方がロブを上げた後、自分たちが次に意識すべきことは何ですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "2人で前に詰めてネットを取る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "その場から動かない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "1人だけ前に出る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "後ろにさらに下がる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ロブで時間を作った後は2人で前に入り、ネットポジションを取るのが基本戦術です。",
+    "tags": [
+      "tactics",
+      "lob",
+      "net"
+    ]
+  },
+  {
+    "id": "q_027",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "試合開始前、相手ペアに最初にすることは何ですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "笑顔で挨拶する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "すぐにサーブを打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "無言で立つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "先に練習を始める",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "まずは笑顔で挨拶をしましょう。初心者大会では雰囲気づくりもとても大切です。",
+    "tags": [
+      "match",
+      "easy",
+      "manner"
+    ]
+  },
+  {
+    "id": "q_028",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "試合前のアップ（練習ラリー）はできますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "できることが多い",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "絶対にできない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "審判がいる時だけできる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手が上級者ならできない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "多くの大会では試合前に数分の練習時間があります。大会要項を確認しましょう。",
+    "tags": [
+      "match",
+      "easy",
+      "warmup"
+    ]
+  },
+  {
+    "id": "q_029",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "試合中にスコアが分からなくなったらどうしますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "相手に確認する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "適当に続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "1ポイントやり直す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "試合を終了する",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "焦らず相手ペアに確認して大丈夫です。初心者大会ではよくあることです。",
+    "tags": [
+      "match",
+      "easy",
+      "score"
+    ]
+  },
+  {
+    "id": "q_030",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "ボールがコートの外に出てしまった時はどうしますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "安全を見て取りに行く",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "そのまま放置する",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手に取りに行かせる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "新しいボールを使う",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "安全を確認して取りに行きましょう。隣コートに入る時は一声かけると丁寧です。",
+    "tags": [
+      "match",
+      "easy",
+      "manner"
+    ]
+  },
+  {
+    "id": "q_031",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "試合中にミスをしてしまった時、一番大切なことは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "すぐ切り替える",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "謝り続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "落ち込んで動かない",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "無理に強打する",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "1ポイントで試合は決まりません。切り替えて次のポイントに集中しましょう。",
+    "tags": [
+      "mental",
+      "easy"
+    ]
+  },
+  {
+    "id": "q_032",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "パートナーがミスをした時の声かけで良いものはどれですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ドンマイ、次いこう",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "なんで今のミスしたの？",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "無言で責める",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ため息をつく",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ポジティブな声かけがペア競技ではとても大切です。",
+    "tags": [
+      "mental",
+      "pair",
+      "easy"
+    ]
+  },
+  {
+    "id": "q_033",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "チェンジコートはいつ行いますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "奇数ゲーム終了時",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "毎ポイント",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "毎ゲーム",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "試合終了時のみ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "基本的には奇数ゲーム終了時に行います。初心者大会では案内があることも多いです。",
+    "tags": [
+      "match",
+      "easy",
+      "rule"
+    ]
+  },
+  {
+    "id": "q_034",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "サーブを打つ順番に自信がない時はどうする？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "試合前にペアで確認する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "その場で適当に決める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "毎回変える",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手に決めてもらう",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "試合前にペアで確認しておくと安心です。迷ったら相手に確認しても問題ありません。",
+    "tags": [
+      "serve",
+      "easy"
+    ]
+  },
+  {
+    "id": "q_035",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "試合前に一番確認しておくと安心なのは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "サーブ順と立ち位置",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ウェアの色",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ラケットの重さ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "スマホの通知",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "サーブ順・レシーブ位置・最初の立ち位置は必ず確認しておきましょう。",
+    "tags": [
+      "match",
+      "easy",
+      "before"
+    ]
+  },
+  {
+    "id": "q_036",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "ポイント間で味方と話してよいですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "短く話してOK",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "絶対話してはいけない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "毎回長く相談する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手にだけ話す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "短く作戦確認や励ましの会話をするのはとても良いことです。",
+    "tags": [
+      "pair",
+      "easy"
+    ]
+  },
+  {
+    "id": "q_037",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "相手のボールがインかアウトか迷った時は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "迷ったらイン",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "必ずアウトにする",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直しにする",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "無視して続ける",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "迷った時は相手に有利（イン）で判断するのがマナーです。",
+    "tags": [
+      "match",
+      "easy",
+      "fairplay"
+    ]
+  },
+  {
+    "id": "q_038",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "初めての大会で一番大事な目標は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "楽しんで経験する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "全勝する",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "強打だけする",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "絶対ミスしない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "まずは勝敗より「楽しんで経験すること」が一番大切です。",
+    "tags": [
+      "mental",
+      "easy"
+    ]
+  },
+  {
+    "id": "q_039",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "緊張して体が動かない時に意識することは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "まず返し続ける",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "全部決めにいく",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "前に出ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "壁を使わない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "最初はシンプルに返球を続けることを目標にすると楽になります。",
+    "tags": [
+      "mental",
+      "easy",
+      "start"
+    ]
+  },
+  {
+    "id": "q_040",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "試合前にボール交換はできますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "軽く確認できることが多い",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "絶対できない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "試合後だけできる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "自分のボールのみ使う",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "基本的に試合球を使って試合前に軽く感触を確認できます。大会によって異なります。",
+    "tags": [
+      "match",
+      "easy",
+      "ball"
+    ]
+  },
+  {
+    "id": "q_041",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "試合中に疲れた時に意識したいことは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ロブで時間を作る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "毎回強打",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "全部ボレー",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "走るのをやめる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "無理に決めようとせず、ロブで時間を作るのが基本です。",
+    "tags": [
+      "match",
+      "easy",
+      "tactics"
+    ]
+  },
+  {
+    "id": "q_042",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "相手が強そうに見えた時に大切な考え方は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "1ポイントずつ集中する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "最初から諦める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "無理に攻める",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ミス待ちだけする",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "見た目よりもまず1ポイントずつ集中することが大切です。",
+    "tags": [
+      "mental",
+      "easy"
+    ]
+  },
+  {
+    "id": "q_043",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "パートナーとぶつからないために大切なのは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "事前に担当を話す",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "全部自分で取る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "全部任せる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "無言で動く",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "センターの担当やロブ処理を事前に話しておくと安心です。",
+    "tags": [
+      "pair",
+      "easy"
+    ]
+  },
+  {
+    "id": "q_044",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "大会で一番よくある初心者の失敗は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "速さを求めすぎること",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ロブを使うこと",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "声を出すこと",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "水を飲むこと",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "速い球を打とうとしてミスすることが多いので、まずはつなぐ意識が大切です。",
+    "tags": [
+      "easy",
+      "beginner"
+    ]
+  },
+  {
+    "id": "q_045",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "最初の1ゲームで大切にしたいことは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "相手を見る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "全部強打",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "必ず前に出る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "全部ロブ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "まず相手のプレースタイルを見ることが大切です。無理に決めにいかなくてOKです。",
+    "tags": [
+      "easy",
+      "start"
+    ]
+  },
+  {
+    "id": "q_046",
+    "categoryId": "match_easy",
+    "difficulty": 1,
+    "question": "試合後にまずすることは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "お礼を伝える",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "すぐ帰る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "結果だけ確認する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "片付けをしない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手ペア・パートナーにお礼を伝えましょう。とても大切なマナーです。",
+    "tags": [
+      "easy",
+      "manner",
+      "end"
+    ]
+  },
+  {
+    "id": "q_047",
+    "categoryId": "match_rules",
+    "difficulty": 1,
+    "question": "相手の打球が自分コートで1回バウンドした後、後ろのガラスに当たりました。返球できますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "返球できる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "失点になる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "必ずロブで返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "味方しか打てない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "パデルでは1バウンド後に自分側の壁を使って返球できます。これが基本ルールです。",
+    "tags": [
+      "rules",
+      "wall",
+      "match"
+    ]
+  },
+  {
+    "id": "q_048",
+    "categoryId": "match_rules",
+    "difficulty": 1,
+    "question": "相手の打球をノーバウンドで打ち返しました。これは有効ですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "有効",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "サーブ時のみ有効",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "味方しかできない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ノーバウンドで返球するボレーは有効です。ただしネットに触れないよう注意が必要です。",
+    "tags": [
+      "rules",
+      "volley"
+    ]
+  },
+  {
+    "id": "q_049",
+    "categoryId": "match_rules",
+    "difficulty": 1,
+    "question": "打ったボールが相手コートでバウンドせず、直接壁に当たりました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "失点",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "そのまま続行",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手が返せば有効",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手コートにまず1回バウンドしないと失点です。直接壁はアウトです。",
+    "tags": [
+      "rules",
+      "wall"
+    ]
+  },
+  {
+    "id": "q_050",
+    "categoryId": "match_rules",
+    "difficulty": 1,
+    "question": "味方にボールがノーバウンドで当たってしまいました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "失点",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "続行",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の失点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "味方の体やラケットにノーバウンドで当たった場合は失点になります。",
+    "tags": [
+      "rules",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_051",
+    "categoryId": "match_rules",
+    "difficulty": 1,
+    "question": "ボールがネットに当たって相手コートに入りました。ラリー中なら有効ですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "有効",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "必ずやり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手ポイント",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ラリー中にネットに当たって相手コートに入れば有効です。サーブ時とは扱いが異なります。",
+    "tags": [
+      "rules",
+      "net"
+    ]
+  },
+  {
+    "id": "q_052",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "相手の打球が自分コートで2回バウンドしました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "失点",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "続行",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手のミス",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "2バウンドした時点で失点です。壁に当たる前後に関わらず同じです。",
+    "tags": [
+      "rules",
+      "bounce"
+    ]
+  },
+  {
+    "id": "q_053",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "相手の打球が自分コートで1回バウンドした後、金網に当たりました。返球できますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "返球できる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "審判確認",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ時のみ可能",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "金網もガラス同様に自分側の壁として使えます。返球可能です。",
+    "tags": [
+      "rules",
+      "walls"
+    ]
+  },
+  {
+    "id": "q_054",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "相手のスマッシュが自分コートでバウンド後、そのままコート外へ出ました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "相手の得点",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "続行",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "自分のポイント",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "外へ出た時点で相手の得点です。ポル・トレスやポル・クアトロに近い状況です。",
+    "tags": [
+      "rules",
+      "smash"
+    ]
+  },
+  {
+    "id": "q_055",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "自分の返球がネットに触れて相手コートに入りました。ラリーは続きますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "続く",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手が選べる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ラリー中であれば有効です。ネットインでも問題ありません。",
+    "tags": [
+      "rules",
+      "net"
+    ]
+  },
+  {
+    "id": "q_056",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "ボールが相手コートで1回バウンドした後、横の金網に当たりました。これは有効ですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "有効",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "味方の失点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手コートで1バウンド後に壁や金網に当たるのは有効です。",
+    "tags": [
+      "rules",
+      "wall"
+    ]
+  },
+  {
+    "id": "q_057",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "自分のラケットがネットに触れてしまいました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "失点",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "続行",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "警告のみ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "プレー中にネットへ触れると失点です。ラケット・体とも同様です。",
+    "tags": [
+      "rules",
+      "net"
+    ]
+  },
+  {
+    "id": "q_058",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "ボールが相手コートでバウンドした後、相手の体に当たりました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "自分たちの得点",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "続行",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の得点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手が返球前に体に当たれば自分たちの得点です。",
+    "tags": [
+      "rules",
+      "body"
+    ]
+  },
+  {
+    "id": "q_059",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "ボールが自分コートで1回バウンドした後、壁→床でもう1回跳ねました。返球できますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "失点",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "返球できる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手の確認次第",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "やり直し",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "床に2回目のバウンドをした時点で失点です。壁の有無は関係ありません。",
+    "tags": [
+      "rules",
+      "bounce"
+    ]
+  },
+  {
+    "id": "q_060",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "味方同士でどちらが打つか迷ってボールが落ちました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "失点",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ノーカウント",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "2人の間に落ちても通常通り失点です。コミュニケーションが大切です。",
+    "tags": [
+      "rules",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_061",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "相手の打球がコート外のドアから出ました。追いかけて打ち返せますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "できる場合がある",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "絶対できない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "必ず失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "審判のみ可能",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "大会ルールやコート仕様によりますが、外プレー可能コートでは返球できます。",
+    "tags": [
+      "rules",
+      "outplay"
+    ]
+  },
+  {
+    "id": "q_062",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "サーブがネットに当たって正しいサービスボックスに入りました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "レットで打ち直し",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "そのままイン",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手ポイント",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "サーブ時はレットとなり打ち直しです。",
+    "tags": [
+      "rules",
+      "serve"
+    ]
+  },
+  {
+    "id": "q_063",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "相手の打球が自分コートに入る前に壁に直接当たりました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "自分たちの得点",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "続行",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の得点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手コート側でまず1バウンドしないと無効なので自分たちの得点です。",
+    "tags": [
+      "rules",
+      "wall"
+    ]
+  },
+  {
+    "id": "q_064",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "打球後に帽子やタオルがコート内に落ち、ボールに触れました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "失点になる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "続行",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "警告のみ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "プレー中に持ち物がボールに影響すると失点になることがあります。持ち物管理が大切です。",
+    "tags": [
+      "rules",
+      "equipment"
+    ]
+  },
+  {
+    "id": "q_065",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "相手の打球がネット上部のポストに当たって入りました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "大会ルール確認",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "必ずイン",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "必ずアウト",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "やり直し",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "公式ルールではポストや支柱の扱いはコート仕様によるため大会ルール確認が必要です。",
+    "tags": [
+      "rules",
+      "court"
+    ]
+  },
+  {
+    "id": "q_066",
+    "categoryId": "match_rules",
+    "difficulty": 2,
+    "question": "ラリー中に隣コートからボールが入ってきました。どうしますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ポイントを止めてやり直す",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "そのまま続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手の失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "自分の失点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "安全のためポイントを止めてレット（やり直し）にすることが一般的です。",
+    "tags": [
+      "rules",
+      "safety"
+    ]
+  },
+  {
+    "id": "q_067",
+    "categoryId": "foul_manner",
+    "difficulty": 1,
+    "question": "ラリー中にラケットがネットに触れてしまいました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "失点になる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "そのまま続行",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "やり直し",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "警告だけ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "プレー中にラケットや体がネットに触れると失点です。初心者が意外とやりがちな反則です。",
+    "tags": [
+      "foul",
+      "net",
+      "manner"
+    ]
+  },
+  {
+    "id": "q_068",
+    "categoryId": "foul_manner",
+    "difficulty": 1,
+    "question": "ポイント間に相手がサーブ準備をしているのに長く話し込んでしまいました。これはどうですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手の失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "自分の得点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ポイント間は短く行動し、試合進行を妨げないのがマナーです。",
+    "tags": [
+      "manner",
+      "time"
+    ]
+  },
+  {
+    "id": "q_069",
+    "categoryId": "foul_manner",
+    "difficulty": 1,
+    "question": "インかアウトか微妙なボールを、はっきり見えていないのにアウトとコールしました。どうですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "正しい判断",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "必ずやり直し",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "見えていない場合は相手に有利（イン）で判断するのが基本マナーです。",
+    "tags": [
+      "manner",
+      "fairplay"
+    ]
+  },
+  {
+    "id": "q_070",
+    "categoryId": "foul_manner",
+    "difficulty": 1,
+    "question": "味方がミスした時にため息をついたり責める発言をしました。これは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "正しい声かけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の失点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ペア競技では雰囲気づくりが重要です。責める言動は大きなマナー違反になりやすいです。",
+    "tags": [
+      "manner",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_071",
+    "categoryId": "foul_manner",
+    "difficulty": 1,
+    "question": "隣コートにボールが転がったのに声をかけずに取りに行きました。どうですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "正しい行動",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "失点になる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "隣コートに入る時は必ず「すみません」「ボール失礼します」と声をかけるのがマナーです。",
+    "tags": [
+      "manner",
+      "safety"
+    ]
+  },
+  {
+    "id": "q_072",
+    "categoryId": "foul_manner",
+    "difficulty": 1,
+    "question": "サーブの前に相手がまだ構えていないのに打ってしまいました。これは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "正しい",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "やり直しのみ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手の準備を確認してからサーブするのがマナーです。",
+    "tags": [
+      "manner",
+      "serve"
+    ]
+  },
+  {
+    "id": "q_073",
+    "categoryId": "foul_manner",
+    "difficulty": 1,
+    "question": "ポイントが終わった後も喜びすぎて相手を煽るような態度を取りました。どうですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "推奨される",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の失点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "喜ぶのはOKですが、相手への配慮を欠く行動はマナー違反です。",
+    "tags": [
+      "manner",
+      "respect"
+    ]
+  },
+  {
+    "id": "q_074",
+    "categoryId": "foul_manner",
+    "difficulty": 1,
+    "question": "味方のボールを無理に横から取りに行ってぶつかりそうになりました。これは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "正しいプレー",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "失点のみ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "「任せた」「自分が行く」など声を出すのが大切です。無理に取りに行くのは危険です。",
+    "tags": [
+      "manner",
+      "pair",
+      "safety"
+    ]
+  },
+  {
+    "id": "q_075",
+    "categoryId": "foul_manner",
+    "difficulty": 1,
+    "question": "サーブ順を確認せず毎回適当に打っていました。どうですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手の責任",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "失点しない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "サーブ順の確認は試合の基本です。適当だとトラブルの元になります。",
+    "tags": [
+      "manner",
+      "serve"
+    ]
+  },
+  {
+    "id": "q_076",
+    "categoryId": "foul_manner",
+    "difficulty": 1,
+    "question": "試合後に相手ペアへ挨拶せずにそのままコートを出ました。これは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "普通",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ルール違反ではない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "試合後の挨拶はとても大切なマナーです。",
+    "tags": [
+      "manner",
+      "end"
+    ]
+  },
+  {
+    "id": "q_077",
+    "categoryId": "foul_manner",
+    "difficulty": 2,
+    "question": "相手のミスに対して大きく喜びすぎるのはどうですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "推奨される",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "失点になる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "自分たちの良いプレーでの喜びはOKですが、相手のミスを強調するのは避けましょう。",
+    "tags": [
+      "manner",
+      "respect"
+    ]
+  },
+  {
+    "id": "q_078",
+    "categoryId": "foul_manner",
+    "difficulty": 2,
+    "question": "試合中にスマホを見ながらポイント間を過ごしました。これは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "正しい",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手失点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "試合進行を妨げるためマナーとして好ましくありません。",
+    "tags": [
+      "manner",
+      "time"
+    ]
+  },
+  {
+    "id": "q_079",
+    "categoryId": "foul_manner",
+    "difficulty": 2,
+    "question": "ボールを相手に返す時、強く打ち返しました。どうですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "推奨される",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "正しい",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手へ返す時は優しく転がす・軽く投げるのがマナーです。",
+    "tags": [
+      "manner",
+      "ball"
+    ]
+  },
+  {
+    "id": "q_080",
+    "categoryId": "foul_manner",
+    "difficulty": 2,
+    "question": "ポイント中に「アウト！」と大声で叫んでしまい、相手が止まってしまいました。これは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくない",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "自分の得点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手プレーに影響する声は妨害と見なされることがあります。",
+    "tags": [
+      "foul",
+      "voice"
+    ]
+  },
+  {
+    "id": "q_081",
+    "categoryId": "foul_manner",
+    "difficulty": 2,
+    "question": "味方に指示を出しすぎて萎縮させてしまいました。どうですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "推奨される",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "正しい",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ペア戦ではポジティブな短い声かけが大切です。指示しすぎは逆効果です。",
+    "tags": [
+      "manner",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_082",
+    "categoryId": "foul_manner",
+    "difficulty": 2,
+    "question": "相手のイン判定に納得いかず何度も抗議しました。これは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "正しい",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手失点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "確認はOKですが、しつこい抗議はマナー違反です。",
+    "tags": [
+      "manner",
+      "fairplay"
+    ]
+  },
+  {
+    "id": "q_083",
+    "categoryId": "foul_manner",
+    "difficulty": 2,
+    "question": "味方がサーブ準備中にコートを歩き回っていました。どうですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "推奨される",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "正しい",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "味方の集中を妨げる行動は避けるのがマナーです。",
+    "tags": [
+      "manner",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_084",
+    "categoryId": "foul_manner",
+    "difficulty": 2,
+    "question": "相手のナイスショットに無反応でした。どうですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "少しもったいない",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "反則",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "必須ではありませんが、良いプレーを認める姿勢はとても良いマナーです。",
+    "tags": [
+      "manner",
+      "respect"
+    ]
+  },
+  {
+    "id": "q_085",
+    "categoryId": "foul_manner",
+    "difficulty": 2,
+    "question": "チェンジコート時に荷物を広げすぎて通路を塞ぎました。どうですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "正しい",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手失点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "他の選手や進行の妨げになるため避けたいマナー違反です。",
+    "tags": [
+      "manner",
+      "safety"
+    ]
+  },
+  {
+    "id": "q_086",
+    "categoryId": "foul_manner",
+    "difficulty": 2,
+    "question": "試合中に「どうせ勝てない」とネガティブな発言を続けました。これは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "正しい",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の得点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ペアのモチベーションを下げるためマナー面でも避けたい行動です。",
+    "tags": [
+      "mental",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_087",
+    "categoryId": "tactics_mistake",
+    "difficulty": 1,
+    "question": "相手が2人ともネットにいる時、初心者が最もやりがちなミスはどれですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "真正面に強打する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ロブを上げる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "足元を狙う",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターに返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ネットにいる相手へ速い球を真正面に打つと、ボレーで簡単に返されやすいです。まずはロブで下げるのが基本です。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "lob"
+    ]
+  },
+  {
+    "id": "q_088",
+    "categoryId": "tactics_mistake",
+    "difficulty": 1,
+    "question": "守備の場面で一番やりがちなミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "無理にノーバウンドで打つ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "壁を使って返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブで返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターに返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "壁を使えば返せるボールを無理にノーバウンドで触ってしまいミスすることが多いです。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "wall"
+    ]
+  },
+  {
+    "id": "q_089",
+    "categoryId": "tactics_mistake",
+    "difficulty": 1,
+    "question": "ロブを打った後に初心者がやりがちなミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "前に詰めない",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ネットへ出る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "センターに寄る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "声をかける",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ロブで時間を作った後に前へ詰めず、そのまま後ろに残ってしまうと主導権を取れません。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "net"
+    ]
+  },
+  {
+    "id": "q_090",
+    "categoryId": "tactics_mistake",
+    "difficulty": 1,
+    "question": "チャンスボールが来た時にやりがちなミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "強打しすぎる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "コースを狙う",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手の足元へ打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターへ返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "決め急いで強打しすぎるとアウトやネットが増えます。まずはコース優先です。",
+    "tags": [
+      "tactics",
+      "mistake"
+    ]
+  },
+  {
+    "id": "q_091",
+    "categoryId": "tactics_mistake",
+    "difficulty": 1,
+    "question": "初心者がセンターに打たずサイドばかり狙うとどうなりやすいですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ミスが増える",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "得点しやすい",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "必ず有利になる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手が困る",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "角度をつけすぎるとアウトや反撃を受けやすくなります。センターは安定します。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "center"
+    ]
+  },
+  {
+    "id": "q_092",
+    "categoryId": "tactics_mistake",
+    "difficulty": 1,
+    "question": "味方と2人でネットにいる時にやりがちなミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "片側に寄りすぎる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "横並びを保つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "センターを守る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ロブを待つ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "2人とも片側に寄りすぎると逆サイドが空いてしまいます。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_093",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "相手のロブに対して初心者がやりがちな判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "無理にスマッシュする",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "バンデッハでつなぐ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブで返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターに返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "無理にスマッシュを打とうとしてミスしやすいです。まずはバンデッハでつなぐ意識が大切です。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "bandeja"
+    ]
+  },
+  {
+    "id": "q_094",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "相手が守備位置にいる時、初心者がやりがちな攻めミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "一発で決めようとする",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "前を取る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "センターへ返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ロブを使う",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "無理にエースを狙いすぎると自滅しやすいです。まずは前を取ることが重要です。",
+    "tags": [
+      "tactics",
+      "mistake"
+    ]
+  },
+  {
+    "id": "q_095",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "守備時に一番避けたい戦術ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "縦並びになる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "横並びになる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "センター寄りに立つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ロブを待つ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "2人が縦に並ぶとコートが広く空いてしまいます。守備は横並びが基本です。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "position"
+    ]
+  },
+  {
+    "id": "q_096",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "味方のロブが浅かった時にやりがちなミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "前に出続ける",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "一度下がる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "センターを守る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "壁を使う",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "そのまま前に出続けると相手にスマッシュされやすいです。状況を見て下がる判断が必要です。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "lob"
+    ]
+  },
+  {
+    "id": "q_097",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "相手の足元を狙うべき場面で初心者がやりがちなミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "高く浮かせる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "低く沈める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを使う",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターへ返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "高く浮かせてしまうと逆に相手のチャンスになります。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "volley"
+    ]
+  },
+  {
+    "id": "q_098",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "ネットプレーで一番多い初心者ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "強打しすぎる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "コントロール重視",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを待つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターへ返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ボレーを強く打ちすぎてアウトすることが多いです。まずはつなぐ意識です。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "volley"
+    ]
+  },
+  {
+    "id": "q_099",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "相手の強打に対してやりがちなミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "振りすぎる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "面を合わせる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "壁を使う",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "焦ってラケットを振りすぎるより、面を作って返す方が安定します。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "defense"
+    ]
+  },
+  {
+    "id": "q_100",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "ロブを打つ時の初心者ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "浅いロブ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "深いロブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "センターへ打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "低く打つ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "浅いロブは相手のスマッシュチャンスになります。深さが大切です。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "lob"
+    ]
+  },
+  {
+    "id": "q_101",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "ラリー中に一番避けたい思考ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "毎回決めようとする",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "続けることを優先",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを待つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "前へ出る",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "毎回決め球を狙うとミスが増えます。まずは続ける意識です。",
+    "tags": [
+      "mental",
+      "mistake"
+    ]
+  },
+  {
+    "id": "q_102",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "相手が初心者っぽい時にやりがちなミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "雑になる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "丁寧に続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "強打する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "前に出続ける",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "簡単に勝てると思って雑になると逆にミスが増えます。",
+    "tags": [
+      "mental",
+      "mistake"
+    ]
+  },
+  {
+    "id": "q_103",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "味方がミスした後にやりがちな戦術ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "無理に決めにいく",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "通常プレーを続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "守備に戻る",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "すぐ自分が決めようとして無理をしやすいです。落ち着いて通常プレーが大切です。",
+    "tags": [
+      "mental",
+      "mistake",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_104",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "相手がロブを多用してくる時の初心者ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "毎回スマッシュする",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "バンデッハで返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "壁を使う",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターへ返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "毎回強打で返そうとしてミスしやすいです。つなぐショットが重要です。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "bandeja"
+    ]
+  },
+  {
+    "id": "q_105",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "コーナーに入ったボールで初心者がやりがちなミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "早く触りすぎる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "壁を待つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブで返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "強打する",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "壁の跳ね返りを待たずに触ってしまいミスしやすいです。",
+    "tags": [
+      "tactics",
+      "mistake",
+      "doble"
+    ]
+  },
+  {
+    "id": "q_106",
+    "categoryId": "tactics_mistake",
+    "difficulty": 2,
+    "question": "試合終盤で初心者が最もやりがちなミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "焦って決め急ぐ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "丁寧に続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "強打する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ロブをやめる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "焦って早く決めようとし、自滅しやすいです。最後ほど丁寧にプレーしましょう。",
+    "tags": [
+      "mental",
+      "mistake",
+      "end"
+    ]
+  },
+  {
+    "id": "q_107",
+    "categoryId": "mental_match",
+    "difficulty": 1,
+    "question": "試合開始前にすごく緊張している時、最初に意識したいことは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "緊張していてOKと受け入れる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "緊張を消そうとする",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "無理に笑う",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "すぐ強打を打つ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "緊張するのは普通です。まずは「緊張していてOK」と受け入れるだけで楽になります。",
+    "tags": [
+      "mental",
+      "easy",
+      "start"
+    ]
+  },
+  {
+    "id": "q_108",
+    "categoryId": "mental_match",
+    "difficulty": 1,
+    "question": "試合の最初のポイントで意識したい目標は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "まず1本返す",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "エースを狙う",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "必ず前に出る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "強打する",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "最初から決めにいかず、まず1本返すことを目標にすると気持ちが楽になります。",
+    "tags": [
+      "mental",
+      "start"
+    ]
+  },
+  {
+    "id": "q_109",
+    "categoryId": "mental_match",
+    "difficulty": 1,
+    "question": "ミスをした直後に一番大切な考え方は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "次の1本に集中する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "さっきのミスを引きずる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "無理に取り返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "謝り続ける",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "1ポイントで試合は決まりません。次の1本に集中しましょう。",
+    "tags": [
+      "mental",
+      "miss"
+    ]
+  },
+  {
+    "id": "q_110",
+    "categoryId": "mental_match",
+    "difficulty": 1,
+    "question": "相手が強そうに見えた時の正しい考え方は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "1ポイントずつ集中する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "最初から諦める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "強打で威嚇する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "守備だけにする",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "見た目ではなく、まず1ポイントずつ戦うことが大切です。",
+    "tags": [
+      "mental",
+      "opponent"
+    ]
+  },
+  {
+    "id": "q_111",
+    "categoryId": "mental_match",
+    "difficulty": 1,
+    "question": "スコアで負けている時に意識したいことは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "次の1ポイントだけ考える",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "残り全部考える",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "逆転を急ぐ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "決め球だけ狙う",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "次の1ポイントだけを考えるとプレッシャーが減ります。",
+    "tags": [
+      "mental",
+      "score"
+    ]
+  },
+  {
+    "id": "q_112",
+    "categoryId": "mental_match",
+    "difficulty": 1,
+    "question": "味方がミスを続けている時に良い声かけは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ドンマイ、次いこう",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "なんでミスしたの？",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "無言",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ため息をつく",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "責めずにポジティブな声かけをすることでペア全体が落ち着きます。",
+    "tags": [
+      "mental",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_113",
+    "categoryId": "mental_match",
+    "difficulty": 1,
+    "question": "自分が連続ミスしてしまった時の対処は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "シンプルにセンターへ返す",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "さらに攻める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "強打する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "前に出続ける",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "プレーをシンプルに戻し、まずはセンターへ返すことを意識しましょう。",
+    "tags": [
+      "mental",
+      "miss"
+    ]
+  },
+  {
+    "id": "q_114",
+    "categoryId": "mental_match",
+    "difficulty": 1,
+    "question": "初大会で一番大切な目標は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "経験して楽しむ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "全勝する",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "無失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "全部決める",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "勝敗よりも「最後まで楽しんで経験すること」が最優先です。",
+    "tags": [
+      "mental",
+      "goal"
+    ]
+  },
+  {
+    "id": "q_115",
+    "categoryId": "mental_match",
+    "difficulty": 1,
+    "question": "試合中に頭が真っ白になった時は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "深呼吸する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "すぐ打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "味方を責める",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "無理に攻める",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ルーティンとして深呼吸してから構えると落ち着きやすいです。",
+    "tags": [
+      "mental",
+      "routine"
+    ]
+  },
+  {
+    "id": "q_116",
+    "categoryId": "mental_match",
+    "difficulty": 1,
+    "question": "相手のナイスショットで取られた時に大切なことは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "切り替える",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "落ち込む",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "無理に取り返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "焦る",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手を褒めて切り替えるくらいの気持ちが大切です。",
+    "tags": [
+      "mental",
+      "switch"
+    ]
+  },
+  {
+    "id": "q_117",
+    "categoryId": "mental_match",
+    "difficulty": 2,
+    "question": "試合前に緊張で手が震える時に有効なのは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "シンプルに返球する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "いきなり攻める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "強打する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "スマッシュ狙い",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "最初の数ポイントはシンプルなプレーに絞ると落ち着きやすいです。",
+    "tags": [
+      "mental",
+      "start"
+    ]
+  },
+  {
+    "id": "q_118",
+    "categoryId": "mental_match",
+    "difficulty": 2,
+    "question": "ミスした後に「取り返そう」と思いすぎるとどうなりやすい？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "さらにミスしやすい",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "上手くなる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手が焦る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "問題ない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "さらにミスが増えやすくなります。まず平常運転に戻すことが大切です。",
+    "tags": [
+      "mental",
+      "miss"
+    ]
+  },
+  {
+    "id": "q_119",
+    "categoryId": "mental_match",
+    "difficulty": 2,
+    "question": "試合中に緊張で足が動かない時は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ロブで時間を作る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "全部強打",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "前に出続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "走らない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "まずはロブを使って時間を作り、自分を落ち着かせましょう。",
+    "tags": [
+      "mental",
+      "tactics"
+    ]
+  },
+  {
+    "id": "q_120",
+    "categoryId": "mental_match",
+    "difficulty": 2,
+    "question": "大事なポイントで緊張した時の考え方は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "いつもの1ポイントと考える",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "絶対に決める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "全部攻める",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "守備だけにする",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "特別視せず、いつもの1ポイントとして考えることが大切です。",
+    "tags": [
+      "mental",
+      "pressure"
+    ]
+  },
+  {
+    "id": "q_121",
+    "categoryId": "mental_match",
+    "difficulty": 2,
+    "question": "味方が緊張している時に良いサポートは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "大丈夫、いつも通りでいこう",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "もっと攻めて",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "なんで緊張してるの？",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "無言",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "短くポジティブな言葉で安心感を与えましょう。",
+    "tags": [
+      "mental",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_122",
+    "categoryId": "mental_match",
+    "difficulty": 2,
+    "question": "相手の連続ポイントで焦っている時は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "1本つなぐ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "全部決める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "無理に前に出る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "強打する",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "まず1本つなぐことに目標を戻しましょう。",
+    "tags": [
+      "mental",
+      "score"
+    ]
+  },
+  {
+    "id": "q_123",
+    "categoryId": "mental_match",
+    "difficulty": 2,
+    "question": "試合中に「勝たなきゃ」と考えすぎるとどうなる？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "プレーが硬くなる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "上手くなる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手が焦る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "集中できる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "プレーが硬くなりミスしやすくなります。",
+    "tags": [
+      "mental",
+      "pressure"
+    ]
+  },
+  {
+    "id": "q_124",
+    "categoryId": "mental_match",
+    "difficulty": 2,
+    "question": "大事な場面で一番避けたい思考は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ミスを恐れすぎる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "いつも通り打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "深呼吸する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターへ返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "「ミスしたらどうしよう」と考えると体が止まりやすいです。",
+    "tags": [
+      "mental",
+      "negative"
+    ]
+  },
+  {
+    "id": "q_125",
+    "categoryId": "mental_match",
+    "difficulty": 2,
+    "question": "初大会の緊張を和らげる一番良い考え方は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "みんな同じと考える",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "自分だけ下手だと思う",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手が上だと思う",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "諦める",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "みんな最初は緊張するので、自分だけではないと考えることです。",
+    "tags": [
+      "mental",
+      "easy"
+    ]
+  },
+  {
+    "id": "q_126",
+    "categoryId": "mental_match",
+    "difficulty": 2,
+    "question": "試合後に一番大切にしたい振り返りは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "できたことを見る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ミスだけ見る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "結果だけ見る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "反省しない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "勝敗より「何ができたか」を振り返ることで次につながります。",
+    "tags": [
+      "mental",
+      "review"
+    ]
+  },
+  {
+    "id": "q_127",
+    "categoryId": "rules",
+    "difficulty": 2,
+    "question": "コート外プレイありのコートです。サーブがネットに当たった後、そのままサイドドアから外へ出ました。この場合どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "レット（やり直し）",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "フォルト",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手の得点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "そのままイン",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "コート外プレイが認められているコートでは、サーブがネットに当たった後にサイドドアから外へ出た場合はレット（やり直し）となります。",
+    "tags": [
+      "rules",
+      "serve",
+      "let",
+      "outplay"
+    ]
+  },
+  {
+    "id": "q_128",
+    "categoryId": "rules",
+    "difficulty": 2,
+    "question": "コート外プレイなしのコートです。サーブがネットに当たった後、そのままサイドドアの外へ出ました。この場合どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "フォルト",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "レット（やり直し）",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手の得点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "そのままイン",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "コート外プレイが認められていないコートでは、サーブがそのままコート外へ出た場合はフォルトとなります。",
+    "tags": [
+      "rules",
+      "serve",
+      "fault"
+    ]
   }
 ]

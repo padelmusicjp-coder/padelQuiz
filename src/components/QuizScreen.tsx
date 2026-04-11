@@ -56,6 +56,20 @@ const QuizScreen: React.FC<QuizScreenProps> = ({
     }, 700); // 0.7秒の「溜め」
   };
 
+  const getCategoryLabel = (id: string) => {
+    switch (id) {
+      case 'rules': return 'ルール';
+      case 'terminology': return '用語';
+      case 'tactics': return '戦術';
+      case 'match_easy': return '試合入門';
+      case 'match_rules': return '実践ルール';
+      case 'foul_manner': return '反則・マナー';
+      case 'tactics_mistake': return 'あるあるミス';
+      case 'mental_match': return 'メンタル';
+      default: return 'その他';
+    }
+  };
+
   return (
     <div className="screen quiz-screen">
       <div className="progress">
@@ -69,11 +83,9 @@ const QuizScreen: React.FC<QuizScreenProps> = ({
       </div>
 
       <div className="question-card">
-        <span className="category-badge">{
-          question.categoryId === 'rules' ? 'ルール' : 
-          question.categoryId === 'terminology' ? '用語' : 
-          question.categoryId === 'tactics' ? '戦術' : 'その他'
-        }</span>
+        <span className="category-badge" data-cat={question.categoryId}>
+          {getCategoryLabel(question.categoryId)}
+        </span>
         {isMultiple && <span className="category-badge" style={{marginLeft: '8px', backgroundColor: '#e91e63'}}>複数選択可</span>}
         <h2 className="question-text">{question.question}</h2>
         {isMultiple && <p className="multiple-hint">※当てはまるものをすべて選んで「解答する」を押してください</p>}
