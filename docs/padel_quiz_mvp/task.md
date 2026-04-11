@@ -50,3 +50,10 @@
   - [x] `QuizContainer.tsx` 等で画面遷移・Pinch状態に合わせたBGMのクロスフェード制御を組み込み
   - [x] デバッグ・検証
 
+- [ ] Phase 11: 音量オプションとトップ画面静音化
+  - [ ] `TitleScreen.tsx` のBGM再生を無効化し、注意テキストを追加
+  - [ ] `audio.ts` にSE用GainNodeとBGM用の音量調節ロジック（localStorage連携含む）を追加
+  - [ ] `TitleScreen.tsx` にオプション用モーダルUI（音量設定画面）を追加
+  - [ ] `index.css` へオプション画面のスタイルを適応
+  - [ ] デバッグ・検証
+

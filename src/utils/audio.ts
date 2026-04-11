@@ -38,19 +38,36 @@ class AudioContextManager {
   // BGM
   private currentBgmMain: HTMLAudioElement | null = null;
   private fadeInterval: number | null = null;
-  private bgmVolume = 0.25;
   private chanceBgms = [bgmChance1, bgmChance2, bgmChance3, bgmChance4, bgmChance5];
   private pinchBgms = [bgmPinch1, bgmPinch2, bgmPinch3, bgmPinch4, bgmPinch5];
   private bgmState: 'title' | 'chance' | 'pinch' | 'none' = 'none';
+
+  // Volume control states
+  public seVolumeConfig: 'high' | 'medium' | 'low' | 'off' = 'medium';
+  public bgmVolumeConfig: 'high' | 'medium' | 'low' | 'off' = 'medium';
+  private seGainNode: GainNode | null = null;
 
   // Jingles
   private jingles0 = [jingleClear0_1, jingleClear0_2, jingleClear0_3, jingleClear0_4];
   private jingles5000 = [jingleClear5000_1, jingleClear5000_2, jingleClear5000_3, jingleClear5000_4];
   private jingles10000 = [jingleClear10000_1, jingleClear10000_2];
 
+  constructor() {
+    const savedBgm = localStorage.getItem('padelQuiz_bgmVolume');
+    if (savedBgm) this.bgmVolumeConfig = savedBgm as any;
+    
+    const savedSe = localStorage.getItem('padelQuiz_seVolume');
+    if (savedSe) this.seVolumeConfig = savedSe as any;
+  }
+
   public init() {
     if (!this.ctx) {
-      this.ctx = new (window.AudioContext || (window as any).webkitAudioContext)();
+      const AudioContextClass = (window.AudioContext || (window as any).webkitAudioContext) as typeof AudioContext;
+      this.ctx = new AudioContextClass();
+      
+      this.seGainNode = this.ctx.createGain();
+      this.seGainNode.connect(this.ctx.destination);
+      this.seGainNode.gain.value = this.getSEVolumeRatio();
     }
     
     // iOS等での制限解除のため、ユーザーアクション時にダミー音を再生してunlockする
@@ -91,13 +108,15 @@ class AudioContextManager {
   }
 
   private playBuffer(key: string) {
-    if (!this.ctx || !this.buffers[key]) return;
+    if (!this.ctx || !this.buffers[key] || !this.seGainNode) return;
+    if (this.seVolumeConfig === 'off') return;
+
     if (this.ctx.state === 'suspended') {
       this.ctx.resume();
     }
     const source = this.ctx.createBufferSource();
     source.buffer = this.buffers[key];
-    source.connect(this.ctx.destination);
+    source.connect(this.seGainNode);
     source.start(0);
   }
 
@@ -107,6 +126,7 @@ class AudioContextManager {
     if (this.ctx.state === 'suspended') {
       this.ctx.resume();
     }
+    if (this.seVolumeConfig === 'off' || !this.seGainNode) return;
 
     const oscillator = this.ctx.createOscillator();
     const gainNode = this.ctx.createGain();
@@ -118,7 +138,7 @@ class AudioContextManager {
     gainNode.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + duration);
 
     oscillator.connect(gainNode);
-    gainNode.connect(this.ctx.destination);
+    gainNode.connect(this.seGainNode);
 
     oscillator.start();
     oscillator.stop(this.ctx.currentTime + duration);
@@ -179,7 +199,7 @@ class AudioContextManager {
 
     const targetSrc = pool[Math.floor(Math.random() * pool.length)];
     const jingleAudio = new Audio(targetSrc);
-    jingleAudio.volume = this.bgmVolume * 1.5;
+    jingleAudio.volume = this.getBGMVolumeRatio();
     jingleAudio.play().catch(() => {});
   }
 
@@ -209,10 +229,10 @@ class AudioContextManager {
       const ratio = step / steps;
       
       if (prevAudio) {
-        prevAudio.volume = Math.max(0, this.bgmVolume * (1 - ratio));
+        prevAudio.volume = Math.max(0, this.getBGMVolumeRatio() * (1 - ratio));
       }
       if (nextAudio) {
-        nextAudio.volume = Math.min(this.bgmVolume, this.bgmVolume * ratio);
+        nextAudio.volume = Math.min(this.getBGMVolumeRatio(), this.getBGMVolumeRatio() * ratio);
       }
 
       if (step >= steps) {
@@ -223,6 +243,43 @@ class AudioContextManager {
         }
       }
     }, stepTime);
+  }
+
+  // Volume configuration
+  private getSEVolumeRatio() {
+    switch (this.seVolumeConfig) {
+      case 'high': return 0.8;
+      case 'medium': return 0.4;
+      case 'low': return 0.15;
+      case 'off': return 0;
+      default: return 0.4;
+    }
+  }
+
+  private getBGMVolumeRatio() {
+    switch (this.bgmVolumeConfig) {
+      case 'high': return 0.5;
+      case 'medium': return 0.25;
+      case 'low': return 0.1;
+      case 'off': return 0;
+      default: return 0.25;
+    }
+  }
+
+  public setSeVolumeConfig(level: 'high' | 'medium' | 'low' | 'off') {
+    this.seVolumeConfig = level;
+    localStorage.setItem('padelQuiz_seVolume', level);
+    if (this.seGainNode) {
+      this.seGainNode.gain.value = this.getSEVolumeRatio();
+    }
+  }
+
+  public setBgmVolumeConfig(level: 'high' | 'medium' | 'low' | 'off') {
+    this.bgmVolumeConfig = level;
+    localStorage.setItem('padelQuiz_bgmVolume', level);
+    if (this.currentBgmMain && this.bgmState !== 'none') {
+      this.currentBgmMain.volume = this.getBGMVolumeRatio();
+    }
   }
 }
 
