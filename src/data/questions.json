@@ -5520,17 +5520,17 @@
       },
       {
         "id": "c2",
-        "text": "高いロブ בלבד",
+        "text": "高いロブ",
         "isCorrect": false
       },
       {
         "id": "c3",
-        "text": "スマッシュ בלבד",
+        "text": "スマッシュ",
         "isCorrect": false
       },
       {
         "id": "c4",
-        "text": "サーブ בלבד",
+        "text": "サーブ",
         "isCorrect": false
       }
     ],
@@ -5559,12 +5559,12 @@
       },
       {
         "id": "c3",
-        "text": "壁待ち בלבד",
+        "text": "壁待ち",
         "isCorrect": false
       },
       {
         "id": "c4",
-        "text": "サーブ強打 בלבד",
+        "text": "サーブ強打",
         "isCorrect": false
       }
     ],
