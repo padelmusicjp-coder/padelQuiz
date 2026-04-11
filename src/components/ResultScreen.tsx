@@ -16,6 +16,8 @@ const ResultScreen: React.FC<ResultScreenProps> = ({
   const [isBouncing, setIsBouncing] = useState(false);
 
   useEffect(() => {
+    audioManager.playResultJingle(score, totalQuestions);
+
     if (score === 0) return;
     
     let current = 0;

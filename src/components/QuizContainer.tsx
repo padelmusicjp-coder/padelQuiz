@@ -34,8 +34,10 @@ const QuizContainer: React.FC = () => {
   }, [gameState, isCorrect]);
 
   useEffect(() => {
-    if (gameState === 'title' || gameState === 'result') {
+    if (gameState === 'title') {
       audioManager.playBGM('title');
+    } else if (gameState === 'result') {
+      audioManager.fadeOutBGM();
     } else if (gameState === 'question' || gameState === 'explanation') {
       audioManager.playBGM(isPinch ? 'pinch' : 'chance');
     }

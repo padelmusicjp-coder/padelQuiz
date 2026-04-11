@@ -20,6 +20,17 @@ import bgmPinch3 from '../assets/BGM/bgm_pinch3.mp3';
 import bgmPinch4 from '../assets/BGM/bgm_pinch4.mp3';
 import bgmPinch5 from '../assets/BGM/bgm_pinch5.mp3';
 
+import jingleClear0_1 from '../assets/jingle/clear0-1.mp3';
+import jingleClear0_2 from '../assets/jingle/clear0-2.mp3';
+import jingleClear0_3 from '../assets/jingle/clear0-3.mp3';
+import jingleClear0_4 from '../assets/jingle/clear0-4.mp3';
+import jingleClear5000_1 from '../assets/jingle/clear5000-1.mp3';
+import jingleClear5000_2 from '../assets/jingle/clear5000-2.mp3';
+import jingleClear5000_3 from '../assets/jingle/clear5000-3.mp3';
+import jingleClear5000_4 from '../assets/jingle/clear5000-4.mp3';
+import jingleClear10000_1 from '../assets/jingle/clear10000-1.mp3';
+import jingleClear10000_2 from '../assets/jingle/clear10000-2.mp3';
+
 class AudioContextManager {
   private ctx: AudioContext | null = null;
   private buffers: Record<string, AudioBuffer> = {};
@@ -31,6 +42,11 @@ class AudioContextManager {
   private chanceBgms = [bgmChance1, bgmChance2, bgmChance3, bgmChance4, bgmChance5];
   private pinchBgms = [bgmPinch1, bgmPinch2, bgmPinch3, bgmPinch4, bgmPinch5];
   private bgmState: 'title' | 'chance' | 'pinch' | 'none' = 'none';
+
+  // Jingles
+  private jingles0 = [jingleClear0_1, jingleClear0_2, jingleClear0_3, jingleClear0_4];
+  private jingles5000 = [jingleClear5000_1, jingleClear5000_2, jingleClear5000_3, jingleClear5000_4];
+  private jingles10000 = [jingleClear10000_1, jingleClear10000_2];
 
   public init() {
     if (!this.ctx) {
@@ -152,6 +168,19 @@ class AudioContextManager {
   public fadeOutBGM() {
     this.bgmState = 'none';
     this.crossfadeTo(null);
+  }
+
+  public playResultJingle(score: number, totalQuestions: number) {
+    const ratio = score / totalQuestions;
+    let pool: string[] = [];
+    if (ratio === 1) pool = this.jingles10000;
+    else if (ratio >= 0.5) pool = this.jingles5000;
+    else pool = this.jingles0;
+
+    const targetSrc = pool[Math.floor(Math.random() * pool.length)];
+    const jingleAudio = new Audio(targetSrc);
+    jingleAudio.volume = this.bgmVolume * 1.5;
+    jingleAudio.play().catch(() => {});
   }
 
   private crossfadeTo(nextAudio: HTMLAudioElement | null) {
