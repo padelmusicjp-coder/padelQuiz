@@ -67,6 +67,7 @@ class AudioContextManager {
   private seGainNode: GainNode | null = null;
 
   // Jingles
+  private currentJingle: HTMLAudioElement | null = null;
   private jingles0 = [jingleClear0_1, jingleClear0_2, jingleClear0_3, jingleClear0_4];
   private jingles5000 = [jingleClear5000_1, jingleClear5000_2, jingleClear5000_3, jingleClear5000_4];
   private jingles10000 = [jingleClear10000_1, jingleClear10000_2];
@@ -210,6 +211,8 @@ class AudioContextManager {
   }
 
   public playResultJingle(score: number, totalQuestions: number) {
+    this.stopJingle(); // Stop any previous jingle just in case
+    
     const ratio = score / totalQuestions;
     let pool: string[] = [];
     if (ratio === 1) pool = this.jingles10000;
@@ -217,9 +220,16 @@ class AudioContextManager {
     else pool = this.jingles0;
 
     const targetSrc = pool[Math.floor(Math.random() * pool.length)];
-    const jingleAudio = new Audio(targetSrc);
-    jingleAudio.volume = this.getBGMVolumeRatio();
-    jingleAudio.play().catch(() => {});
+    this.currentJingle = new Audio(targetSrc);
+    this.currentJingle.volume = this.getBGMVolumeRatio();
+    this.currentJingle.play().catch(() => {});
+  }
+
+  public stopJingle() {
+    if (this.currentJingle) {
+      this.currentJingle.pause();
+      this.currentJingle = null;
+    }
   }
 
   private crossfadeTo(nextAudio: HTMLAudioElement | null) {

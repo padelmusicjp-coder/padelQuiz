@@ -51,6 +51,7 @@ const ResultScreen: React.FC<ResultScreenProps> = ({
   const feedback = getFeedbackObj(score, totalQuestions);
 
   const handleRetry = () => {
+    audioManager.stopJingle();
     audioManager.playTap();
     onRetry();
   };
