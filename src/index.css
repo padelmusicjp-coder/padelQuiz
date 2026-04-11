@@ -394,23 +394,13 @@ button:disabled {
 
 .explanation-screen {
   gap: 1rem;
-  padding: 1.5rem;
-  border-radius: 12px;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .explanation-screen.correct {
-  background-color: #f0fdf4;
-  border: 4px solid var(--correct-color);
-  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
   animation: fadeIn 0.3s ease-in-out, flash-correct 0.8s ease-out;
 }
 
 .explanation-screen.incorrect {
-  background-color: #fef2f2;
-  border: 4px solid var(--error-color);
-  box-shadow: 0 4px 12px rgba(244, 67, 54, 0.2);
   animation: fadeIn 0.3s ease-in-out, flash-incorrect 0.8s ease-out;
 }
 
@@ -643,13 +633,16 @@ button:disabled {
 
 .correct-choice {
   background-color: #e8f5e9;
-  border-color: #a5d6a7;
+  border: 3px solid var(--correct-color);
+  color: var(--correct-color);
   font-weight: bold;
 }
 
 .wrong-choice {
   background-color: #ffebee;
-  border-color: #ef9a9a;
+  border: 3px solid var(--error-color);
+  color: var(--error-color);
+  font-weight: bold;
 }
 
 .choice-icon {
