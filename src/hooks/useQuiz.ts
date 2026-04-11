@@ -16,10 +16,40 @@ export const useQuiz = () => {
   const [isPinch, setIsPinch] = useState(false);
 
   const startQuiz = () => {
+    // 過去に出題された直近30問のIDをLocalStorageから取得
+    const maxHistoryCount = 30;
+    let recentIds: string[] = [];
+    try {
+      const stored = localStorage.getItem('padelQuiz_recentQuestions');
+      if (stored) {
+        recentIds = JSON.parse(stored);
+      }
+    } catch (e) {
+      console.warn('Failed to parse recent questions history');
+    }
+
+    // 直近30問を除外した問題プールを作成
+    let availableQuestions = questionsData.filter(q => !recentIds.includes(q.id));
+    
+    // もし残りの問題数が10問未満ならセーフティとして履歴をリセット
+    if (availableQuestions.length < 10) {
+      availableQuestions = [...questionsData];
+      recentIds = [];
+    }
+
     // 問題自体をシャッフル
-    const shuffledQuestions = [...questionsData].sort(() => 0.5 - Math.random());
+    const shuffledQuestions = [...availableQuestions].sort(() => 0.5 - Math.random());
     // 1プレイあたり10問を出題
     const selectedQuestions = shuffledQuestions.slice(0, 10) as Question[];
+
+    // 今回選ばれた10問を履歴に追加＆保存（最大30問までを保持）
+    const newSelectedIds = selectedQuestions.map(q => q.id);
+    const updatedRecentIds = [...recentIds, ...newSelectedIds].slice(-maxHistoryCount);
+    try {
+      localStorage.setItem('padelQuiz_recentQuestions', JSON.stringify(updatedRecentIds));
+    } catch (e) {
+      console.warn('Failed to save recent questions history');
+    }
     
     // 各問題の選択肢もシャッフルする
     const questionsWithShuffledChoices = selectedQuestions.map(q => ({
