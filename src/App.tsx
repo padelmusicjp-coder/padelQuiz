@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import QuizContainer from './components/QuizContainer'
+import { audioManager } from './utils/audio'
 import './App.css'
 
 import bgChigasaki from './assets/images/bg/bg_chigasaki.png';
@@ -16,8 +17,17 @@ function App() {
     document.body.style.backgroundSize = 'cover';
     document.body.style.backgroundPosition = 'center';
     document.body.style.backgroundAttachment = 'fixed';
-    // 少し背景を暗くしてUIを見やすくするためのオーバーレイを疑似的に当てる場合は、
-    // ここではなく全体のラッパーに当てると良いですが、現状コート画像を見せるためそのままにします。
+  }, []);
+
+  // 5分間放置でBGM/SEを停止するアイドルタイマー
+  useEffect(() => {
+    const resetIdle = () => audioManager.resetIdleTimer();
+    const events = ['click', 'touchstart', 'keydown', 'pointerdown'];
+    events.forEach(e => window.addEventListener(e, resetIdle, { passive: true }));
+    audioManager.resetIdleTimer(); // 初回起動
+    return () => {
+      events.forEach(e => window.removeEventListener(e, resetIdle));
+    };
   }, []);
 
   return (

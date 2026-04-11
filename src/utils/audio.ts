@@ -310,6 +310,24 @@ class AudioContextManager {
       this.currentBgmMain.volume = this.getBGMVolumeRatio();
     }
   }
+
+  // --- Idle timer: stop all audio after 5 minutes of no user interaction ---
+  private idleTimer: number | null = null;
+  private readonly IDLE_TIMEOUT = 5 * 60 * 1000; // 5 minutes
+
+  public resetIdleTimer() {
+    if (this.idleTimer) {
+      window.clearTimeout(this.idleTimer);
+    }
+    this.idleTimer = window.setTimeout(() => {
+      this.stopAll();
+    }, this.IDLE_TIMEOUT);
+  }
+
+  public stopAll() {
+    this.fadeOutBGM();
+    this.stopJingle();
+  }
 }
 
 export const audioManager = new AudioContextManager();
