@@ -394,14 +394,31 @@ button:disabled {
 
 .explanation-screen {
   gap: 1rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .explanation-screen.correct {
+  background-color: #f0fdf4;
+  border: 4px solid var(--correct-color);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
   animation: fadeIn 0.3s ease-in-out, flash-correct 0.8s ease-out;
 }
 
 .explanation-screen.incorrect {
+  background-color: #fef2f2;
+  border: 4px solid var(--error-color);
+  box-shadow: 0 4px 12px rgba(244, 67, 54, 0.2);
   animation: fadeIn 0.3s ease-in-out, flash-incorrect 0.8s ease-out;
+}
+
+.explanation-screen .result-header .result-title {
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
 }
 
 /* ---------------- Character & Ball Animation ---------------- */
