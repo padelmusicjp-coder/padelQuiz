@@ -4235,5 +4235,3382 @@
       "serve",
       "fault"
     ]
+  },
+  {
+    "id": "q_129",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "タイブレークでは最初に何ポイント先取で勝利になりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "7ポイント先取（2点差）",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "6ポイント先取",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "9ポイント先取",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "10ポイント固定",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "一般的なパデル大会では7ポイント先取ですが、2点差が必要です。大会要項で10ポイント制の場合もあります。",
+    "tags": [
+      "tournament",
+      "tiebreak"
+    ]
+  },
+  {
+    "id": "q_130",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "タイブレークで6-6になった場合どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "2点差がつくまで続く",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "次の1ポイントで終了",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "引き分け",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "再試合",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "2点差がつくまで続行します。7-6では終了しません。",
+    "tags": [
+      "tournament",
+      "tiebreak"
+    ]
+  },
+  {
+    "id": "q_131",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "タイブレークでは何ポイントごとにサーブが交代しますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "最初1ポイント、その後2ポイントごと",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "毎ポイント",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "毎ゲーム",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "3ポイントごと",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "最初の1ポイント後、その後は2ポイントごとにサーブが交代します。",
+    "tags": [
+      "tournament",
+      "tiebreak",
+      "serve"
+    ]
+  },
+  {
+    "id": "q_132",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "タイブレークでチェンジコートはいつ行いますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "6ポイントごと",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "毎3ポイント",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "毎ゲーム",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "試合終了時のみ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "6ポイントごとにチェンジコートを行います。",
+    "tags": [
+      "tournament",
+      "tiebreak",
+      "change"
+    ]
+  },
+  {
+    "id": "q_133",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "ゲームカウント6-6になった場合、一般的にはどうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "タイブレークに入る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "そのまま続く",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "試合終了",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "引き分け",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "多くの大会ではタイブレークに入りますが、大会形式によって異なります。",
+    "tags": [
+      "tournament",
+      "score"
+    ]
+  },
+  {
+    "id": "q_134",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "サーブ順を途中で間違えて進めてしまい、数ポイント後に気づきました。どうしますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "正しい順番に戻す",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "そのゲームをやり直す",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手に1ゲーム入る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "試合終了",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "気づいた時点で正しい順番に戻し、すでに終わったポイントは通常そのまま有効です。",
+    "tags": [
+      "tournament",
+      "serve"
+    ]
+  },
+  {
+    "id": "q_135",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "チェンジコート時に長く休憩しすぎるとどうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "注意されることがある",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "試合終了",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "大会によってはタイムバイオレーションや注意を受ける場合があります。",
+    "tags": [
+      "tournament",
+      "time"
+    ]
+  },
+  {
+    "id": "q_136",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "ボールが破損していることに気づいた場合どうしますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "交換を確認する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "そのまま使う",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "自分だけ交換する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手に渡す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ポイント開始前に相手や運営に確認し交換します。",
+    "tags": [
+      "tournament",
+      "ball"
+    ]
+  },
+  {
+    "id": "q_137",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "試合開始時間に遅れそうな場合どうするのが適切ですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "運営へ連絡する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "何もしない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手にだけ連絡",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "試合後に謝る",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "早めに運営へ連絡することが重要です。無断遅刻は失格の可能性があります。",
+    "tags": [
+      "tournament",
+      "manner"
+    ]
+  },
+  {
+    "id": "q_138",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "大会で使うボールは基本的にどう決まりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "主催者指定球",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "自分のボール",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手のボール",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "どれでもよい",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "大会主催者が指定した公式球を使用することが一般的です。",
+    "tags": [
+      "tournament",
+      "ball"
+    ]
+  },
+  {
+    "id": "q_139",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "相手ペアがスコアを間違えてコールしている時はどうしますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "その場で確認する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "無視して続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "抗議する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の失点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "落ち着いて確認し、合意してから次のポイントを始めます。",
+    "tags": [
+      "tournament",
+      "score"
+    ]
+  },
+  {
+    "id": "q_140",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "雨などで試合続行が危険な場合どうしますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "運営判断を仰ぐ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "自己判断で続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "試合放棄",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手に任せる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "運営や審判の判断を仰ぎ、安全を優先します。",
+    "tags": [
+      "tournament",
+      "safety"
+    ]
+  },
+  {
+    "id": "q_141",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "隣コートからのボール侵入でプレーが止まりました。どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "やり直し",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "相手の失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "自分の失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "続行",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "一般的にはレットでそのポイントをやり直します。",
+    "tags": [
+      "tournament",
+      "let"
+    ]
+  },
+  {
+    "id": "q_142",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "タイブレーク中にサーブ側を間違えた場合どうしますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "正しい位置に戻す",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "最初からやり直す",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "そのまま続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の得点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "気づいた時点で正しいサイド・順番に戻します。",
+    "tags": [
+      "tournament",
+      "tiebreak"
+    ]
+  },
+  {
+    "id": "q_143",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "試合中にトイレへ行きたくなった場合どうしますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "相手に一声かける",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "無言で離れる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "試合終了まで我慢",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "失点になる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "チェンジコート時などに相手へ一声かけ、必要なら運営に確認します。",
+    "tags": [
+      "tournament",
+      "manner"
+    ]
+  },
+  {
+    "id": "q_144",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "大会でウェア規定がある場合、最も大切なのは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "要項確認",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "好きな服で行く",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手に合わせる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "運営任せ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "大会要項を事前に確認しておくことです。",
+    "tags": [
+      "tournament",
+      "manner"
+    ]
+  },
+  {
+    "id": "q_145",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "相手が棄権した場合どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "自分たちの勝利",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "引き分け",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "再試合",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "無効",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "通常は自分たちの勝利となります。大会形式により扱いは異なります。",
+    "tags": [
+      "tournament",
+      "walkover"
+    ]
+  },
+  {
+    "id": "q_146",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "試合前の練習時間が終わったのに打ち続けてしまいました。これは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "よくないマナー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の得点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "進行の妨げになるためマナー違反です。時間を守りましょう。",
+    "tags": [
+      "tournament",
+      "manner"
+    ]
+  },
+  {
+    "id": "q_147",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "大会形式がリーグ戦の場合、一番大切なことは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ゲーム差も意識する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "1試合だけ勝てばよい",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "強打する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "引き分け狙い",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "勝敗だけでなく得失ゲーム差が影響する場合があります。",
+    "tags": [
+      "tournament",
+      "league"
+    ]
+  },
+  {
+    "id": "q_148",
+    "categoryId": "tournament_rules",
+    "difficulty": 2,
+    "question": "試合終了後にスコア報告は誰が行うことが多いですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "勝者側が多い",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "敗者側が多い",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "運営のみ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "報告不要",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "大会によって異なりますが、勝者側が報告するケースが多いです。",
+    "tags": [
+      "tournament",
+      "report"
+    ]
+  },
+  {
+    "id": "q_149",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "相手がネット前にいて足元が空いている時に有効なショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "チキータ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "高いロブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "スマッシュ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手に下から打たせることで主導権を取りやすくなります。",
+    "tags": [
+      "shots",
+      "tactics",
+      "chiquita"
+    ]
+  },
+  {
+    "id": "q_150",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "相手のロブが少し浅い時、まず選びやすいショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "バンデッハ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "フルスマッシュ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "チキータ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "レボテ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "無理に強打せず、バンデッハでつないで前を維持するのが基本です。",
+    "tags": [
+      "shots",
+      "tactics",
+      "bandeja"
+    ]
+  },
+  {
+    "id": "q_151",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "「グロッボ（Globo）」の高さで大切なのはどれですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "高く深く上げる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "低く速く打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ネットすれすれ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "無回転",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "高く深く上げることで相手を後ろへ下げやすくなります。",
+    "tags": [
+      "shots",
+      "tactics",
+      "lob"
+    ]
+  },
+  {
+    "id": "q_152",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "「レボテ」を使う基本場面はどれですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "壁から返った球を打つ時",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "サーブ時",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "スマッシュ時",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ネット前のみ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "自分コートで1バウンド後に壁から返ってきた球を返球する時に使います。",
+    "tags": [
+      "shots",
+      "tactics",
+      "rebote"
+    ]
+  },
+  {
+    "id": "q_153",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "相手のロブが深い時に無理にスマッシュするとどうなりやすいですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ミスしやすい",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "得点しやすい",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "必ず入る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "スピードが上がる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "体勢が崩れてミスやカウンターを受けやすくなります。",
+    "tags": [
+      "shots",
+      "tactics",
+      "mistake"
+    ]
+  },
+  {
+    "id": "q_154",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "相手が後ろに下がっている時に有効な考え方は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "前後に揺さぶる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "さらに深く下げる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "強打のみ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "全部ロブ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "短い球で前後に揺さぶると効果的です。",
+    "tags": [
+      "shots",
+      "tactics"
+    ]
+  },
+  {
+    "id": "q_155",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "「ビボラ」はどんな時に特に有効ですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "低く滑らせたい時",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "高く上げたい時",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "守備だけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ時",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手が守備位置で低い返球を強いられる場面です。",
+    "tags": [
+      "shots",
+      "tactics",
+      "vibora"
+    ]
+  },
+  {
+    "id": "q_156",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "味方がロブを上げた後の基本戦術は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "2人で前に出る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "その場に残る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "後ろに下がる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "片方だけ出る",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "2人でネットへ前進して主導権を取ります。",
+    "tags": [
+      "shots",
+      "tactics",
+      "net"
+    ]
+  },
+  {
+    "id": "q_157",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "相手の足元に沈めたい時に意識することは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "低く打つ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "高く打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "速さだけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "回転なし",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "高く浮かせず低くコントロールすることです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "control"
+    ]
+  },
+  {
+    "id": "q_158",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "スマッシュを打つ時に一番見たいものは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "相手の位置",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ネットだけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "天井",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "味方の足元",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手の立ち位置と空いているスペースです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "attack"
+    ]
+  },
+  {
+    "id": "q_159",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "相手がロブを待っている時に有効なショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "チキータ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "さらにロブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "サーブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "レボテ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "足元へのチキータが有効です。",
+    "tags": [
+      "shots",
+      "tactics",
+      "chiquita"
+    ]
+  },
+  {
+    "id": "q_160",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "「バハーダ・デ・パレード」はどんな意味ですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "壁からの攻撃ショット",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "高いロブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "低いボレー",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "守備用ロブ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "壁から落ちてくる球を攻撃的に打つショットです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "bajada"
+    ]
+  },
+  {
+    "id": "q_161",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "相手が2人とも後ろにいる時に有効な戦術は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "短く落とす",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "さらに深いロブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "強打のみ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "全部センター",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "前に短く落として前後に揺さぶります。",
+    "tags": [
+      "shots",
+      "tactics"
+    ]
+  },
+  {
+    "id": "q_162",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "守備時にロブを使う主な目的は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "時間を作る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "一発で決める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "壁に当てる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手を怒らせる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "時間を作って自分たちの体勢を整えることです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "lob"
+    ]
+  },
+  {
+    "id": "q_163",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "相手が前に詰めてきた時に一番避けたいのは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "真正面への強打",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ロブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "足元",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センター",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "真正面への速い球はボレーされやすいです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "mistake"
+    ]
+  },
+  {
+    "id": "q_164",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "「ポル・トレス」で大切なのは何ですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "横方向の抜け",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "高さだけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "速さだけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ロブの深さ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "横方向に抜ける角度と威力です。",
+    "tags": [
+      "shots",
+      "tactics",
+      "portres"
+    ]
+  },
+  {
+    "id": "q_165",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "相手が壁際にいる時に有効な考え方は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "返しにくい位置を狙う",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "中央だけ狙う",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブのみ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "強打のみ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "壁からの返球しにくい位置へ沈めることです。",
+    "tags": [
+      "shots",
+      "tactics"
+    ]
+  },
+  {
+    "id": "q_166",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "バンデッハを選ぶ最大の理由は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "前を維持するため",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "速いから",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "簡単だから",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "守備専用だから",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "攻撃しつつ前を維持できるからです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "bandeja"
+    ]
+  },
+  {
+    "id": "q_167",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "相手が低い球を苦手そうな時に有効なのは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "低い球を使う",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "高いロブ בלבד",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "スマッシュ בלבד",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ בלבד",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ビボラや低いボレーで崩しやすいです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "vibora"
+    ]
+  },
+  {
+    "id": "q_168",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "初心者がまず覚えると試合で一番使いやすい組み合わせは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ロブ→前へ出る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "スマッシュ連打",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "壁待ち בלבד",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ強打 בלבד",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ロブ→前へ出る、の流れが最重要です。",
+    "tags": [
+      "shots",
+      "tactics",
+      "basic"
+    ]
+  },
+  {
+    "id": "q_169",
+    "categoryId": "first_tournament",
+    "difficulty": 1,
+    "question": "初大会で最初に一番起こりやすいことは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "緊張で体が固くなる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "すぐ絶好調",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "全く緊張しない",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "最初から強打できる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "多くの人が最初の数ポイントでかなり緊張します。まずは普通です。",
+    "tags": [
+      "first",
+      "common",
+      "mental"
+    ]
+  },
+  {
+    "id": "q_170",
+    "categoryId": "first_tournament",
+    "difficulty": 1,
+    "question": "サーブ前に初心者がよくやるあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "サーブ順を確認する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "すぐ打てる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "毎回覚えている",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブしない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "サーブ順やサイドを一瞬忘れるのは本当によくあります。",
+    "tags": [
+      "first",
+      "common",
+      "serve"
+    ]
+  },
+  {
+    "id": "q_171",
+    "categoryId": "first_tournament",
+    "difficulty": 1,
+    "question": "最初の1ゲームでよくあることは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "普段よりミスする",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "絶好調になる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "無失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "全部決まる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "力みすぎて普段よりミスしやすくなります。",
+    "tags": [
+      "first",
+      "common",
+      "start"
+    ]
+  },
+  {
+    "id": "q_172",
+    "categoryId": "first_tournament",
+    "difficulty": 1,
+    "question": "初大会で相手が強そうに見えた時のあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "強そうに見えて焦る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "すぐ勝てると思う",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "気にしない",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "無視する",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "見た目や雰囲気だけで圧倒されやすいです。",
+    "tags": [
+      "first",
+      "common",
+      "mental"
+    ]
+  },
+  {
+    "id": "q_173",
+    "categoryId": "first_tournament",
+    "difficulty": 1,
+    "question": "スコアでよく起こるあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "スコアを忘れる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "全部覚えている",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手が忘れる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "点数を見ない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "緊張で今何点か分からなくなることがあります。",
+    "tags": [
+      "first",
+      "common",
+      "score"
+    ]
+  },
+  {
+    "id": "q_174",
+    "categoryId": "first_tournament",
+    "difficulty": 1,
+    "question": "味方とのあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "真ん中で譲り合う",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "全部自分で取る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ぶつかる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "無言",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "初ペアだと遠慮して真ん中のボールを譲り合いがちです。",
+    "tags": [
+      "first",
+      "common",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_175",
+    "categoryId": "first_tournament",
+    "difficulty": 1,
+    "question": "ロブでよくあることは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ロブが浅くなる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "毎回完璧",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "全部深い",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "打たない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "緊張で浅くなりやすいです。",
+    "tags": [
+      "first",
+      "common",
+      "lob"
+    ]
+  },
+  {
+    "id": "q_176",
+    "categoryId": "first_tournament",
+    "difficulty": 1,
+    "question": "ネット前でよくあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "怖くて下がる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "すぐ前に出る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "動かない",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "強打する",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手が近いと怖く感じて下がりすぎることがあります。",
+    "tags": [
+      "first",
+      "common",
+      "net"
+    ]
+  },
+  {
+    "id": "q_177",
+    "categoryId": "first_tournament",
+    "difficulty": 1,
+    "question": "ミスした時によくある気持ちは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "引きずる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "すぐ忘れる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "怒る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "笑う",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "「やってしまった」と引きずりやすいです。",
+    "tags": [
+      "first",
+      "common",
+      "mental"
+    ]
+  },
+  {
+    "id": "q_178",
+    "categoryId": "first_tournament",
+    "difficulty": 1,
+    "question": "チェンジコートでよくあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "立ち位置に迷う",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "毎回完璧",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手に聞かない",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "止まる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "次どちら側か一瞬迷うことがあります。",
+    "tags": [
+      "first",
+      "common",
+      "change"
+    ]
+  },
+  {
+    "id": "q_179",
+    "categoryId": "first_tournament",
+    "difficulty": 2,
+    "question": "相手のナイスショットでよくあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "圧倒される",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "無視する",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "笑う",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "強打する",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "「うまい…」と気持ちが持っていかれやすいです。",
+    "tags": [
+      "first",
+      "common",
+      "mental"
+    ]
+  },
+  {
+    "id": "q_180",
+    "categoryId": "first_tournament",
+    "difficulty": 2,
+    "question": "試合前アップでよくあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "アップで打ちすぎる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "全く打たない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "完璧に調整",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "走らない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "普段より打ちすぎて疲れてしまうことがあります。",
+    "tags": [
+      "first",
+      "common",
+      "warmup"
+    ]
+  },
+  {
+    "id": "q_181",
+    "categoryId": "first_tournament",
+    "difficulty": 2,
+    "question": "試合中によくあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "壁を使うのを忘れる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "完璧に使える",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "全部壁待ち",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "前に出る",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "いつもより壁が使えなくなることがあります。",
+    "tags": [
+      "first",
+      "common",
+      "wall"
+    ]
+  },
+  {
+    "id": "q_182",
+    "categoryId": "first_tournament",
+    "difficulty": 2,
+    "question": "味方への声かけでよくあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "声が減る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ずっと話す",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "怒る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "指示し続ける",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "自分も緊張していて声が少なくなりがちです。",
+    "tags": [
+      "first",
+      "common",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_183",
+    "categoryId": "first_tournament",
+    "difficulty": 2,
+    "question": "負けている時によくあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "無理に決めにいく",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "丁寧に続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブだけ打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "止まる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "一発逆転を狙って無理しやすいです。",
+    "tags": [
+      "first",
+      "common",
+      "mental"
+    ]
+  },
+  {
+    "id": "q_184",
+    "categoryId": "first_tournament",
+    "difficulty": 2,
+    "question": "勝っている時によくあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "雑になる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "さらに丁寧になる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "止まる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "強打しない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "安心して雑になりやすいです。",
+    "tags": [
+      "first",
+      "common",
+      "mental"
+    ]
+  },
+  {
+    "id": "q_185",
+    "categoryId": "first_tournament",
+    "difficulty": 2,
+    "question": "大事なポイントでよくあるあるは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "普段しないプレーをする",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "いつも通り",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブだけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "全部強打",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "急にいつもと違うプレーをしたくなります。",
+    "tags": [
+      "first",
+      "common",
+      "pressure"
+    ]
+  },
+  {
+    "id": "q_186",
+    "categoryId": "first_tournament",
+    "difficulty": 2,
+    "question": "試合後によくある気持ちは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "経験になったと思う",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "何も思わない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "すぐ忘れる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "怒る",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "もっとできたかもと思いながらも経験になったと感じます。",
+    "tags": [
+      "first",
+      "common",
+      "after"
+    ]
+  },
+  {
+    "id": "q_187",
+    "categoryId": "first_tournament",
+    "difficulty": 2,
+    "question": "初大会で一番よく聞く感想は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "緊張したけど楽しかった",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "全く緊張しなかった",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "簡単だった",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "疲れなかった",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "思ったより緊張した、でも楽しかったという声がとても多いです。",
+    "tags": [
+      "first",
+      "common",
+      "after"
+    ]
+  },
+  {
+    "id": "q_188",
+    "categoryId": "first_tournament",
+    "difficulty": 2,
+    "question": "初大会を終えた後に一番大切なのは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "出たこと自体が価値",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "勝てなければ意味がない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ミスだけ反省",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "次は出ない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "勝敗よりも経験したこと自体に価値があります。",
+    "tags": [
+      "first",
+      "common",
+      "growth"
+    ]
+  },
+  {
+    "id": "q_189",
+    "categoryId": "decision_mistake",
+    "difficulty": 1,
+    "question": "相手が2人ともネットにいる時、初心者が最もやりがちな判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "真正面に強打する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ロブを上げる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "足元に沈める",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターに返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手がネットにいる時に真正面へ速い球を打つと、ボレーで返されやすいです。まずはロブが基本です。",
+    "tags": [
+      "decision",
+      "mistake",
+      "lob"
+    ]
+  },
+  {
+    "id": "q_190",
+    "categoryId": "decision_mistake",
+    "difficulty": 1,
+    "question": "ボールが壁際に深く入った時に多い判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "壁を待たずに打つ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "壁を使う",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを上げる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "味方に任せる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "壁を使えば返せるのに、早く触ろうとしてミスしやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "wall"
+    ]
+  },
+  {
+    "id": "q_191",
+    "categoryId": "decision_mistake",
+    "difficulty": 1,
+    "question": "味方との真ん中のボールで多い判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "譲り合って落とす",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "声を出して取る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "全部自分で行く",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "止まる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "声を出さずに譲り合って落としやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_192",
+    "categoryId": "decision_mistake",
+    "difficulty": 1,
+    "question": "相手の浅いロブに対して多い判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "無理に強打する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "確実に返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブで返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターに返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "すぐに強打したくなりますが、まず確実に返す判断が大切です。",
+    "tags": [
+      "decision",
+      "mistake",
+      "smash"
+    ]
+  },
+  {
+    "id": "q_193",
+    "categoryId": "decision_mistake",
+    "difficulty": 1,
+    "question": "自分たちが後ろにいる時の多い判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "無理に前へ出る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "まずつなぐ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを使う",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "横並びを保つ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "無理に前へ出ようとして逆に抜かれやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "position"
+    ]
+  },
+  {
+    "id": "q_194",
+    "categoryId": "decision_mistake",
+    "difficulty": 1,
+    "question": "ネット前で多い判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "決め急ぐ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "つなぐ意識",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを待つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターへ返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "決め急いで強打しすぎるとアウトが増えます。",
+    "tags": [
+      "decision",
+      "mistake",
+      "volley"
+    ]
+  },
+  {
+    "id": "q_195",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "相手が強打してきた時の判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "振りにいく",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "面を合わせる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "壁を待つ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "振りにいきすぎてミスしやすいです。面を合わせる方が安定します。",
+    "tags": [
+      "decision",
+      "mistake",
+      "defense"
+    ]
+  },
+  {
+    "id": "q_196",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "相手がロブを多用する時の判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "毎回スマッシュする",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "バンデッハでつなぐ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブで返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "センターに返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "毎回スマッシュを狙って自滅しやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "bandeja"
+    ]
+  },
+  {
+    "id": "q_197",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "相手が前に詰めてきた時の判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "焦って強打する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ロブで時間を作る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "センターに返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "足元を狙う",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "焦って低い球を強打しネットしやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "pressure"
+    ]
+  },
+  {
+    "id": "q_198",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "味方がロブを上げた後の判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "前に出ない",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "2人で前に詰める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "横に広がる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "止まる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "そのまま後ろに残ると前を取れません。",
+    "tags": [
+      "decision",
+      "mistake",
+      "net"
+    ]
+  },
+  {
+    "id": "q_199",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "浅いチャンスボールで多い判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "角度をつけすぎる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "センターを狙う",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "足元へ打つ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ロブを使う",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "角度をつけすぎてアウトしやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "attack"
+    ]
+  },
+  {
+    "id": "q_200",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "コーナーのボールで多い判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "先に動きすぎる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "跳ね返りを見る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "味方に任せる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ロブで返す",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "壁の跳ね返りを読まずに突っ込みやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "doble"
+    ]
+  },
+  {
+    "id": "q_201",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "相手の足元を狙う場面で多い判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "高く浮かせる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "低く沈める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを上げる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "強打する",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "高く浮かせて逆に相手のチャンスにしてしまいます。",
+    "tags": [
+      "decision",
+      "mistake",
+      "volley"
+    ]
+  },
+  {
+    "id": "q_202",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "相手が守備位置の時の判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "決め急ぐ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "前を取る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "センターに返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ロブを使う",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "一発で決めようとしすぎて自滅しやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "mental"
+    ]
+  },
+  {
+    "id": "q_203",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "負けている時の判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "一発逆転狙い",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "1ポイントずつ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "守備だけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ロブだけ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "一発逆転を狙ってプレーが雑になりやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "mental"
+    ]
+  },
+  {
+    "id": "q_204",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "勝っている時の判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "雑になる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "丁寧に続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "強打する",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "前に出る",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "安心して集中力が落ちやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "mental"
+    ]
+  },
+  {
+    "id": "q_205",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "味方がミスした直後に多い判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "無理に取り返す",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "いつも通り続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを使う",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "守備に戻る",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "自分が無理に取り返そうとしてさらにミスしやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "pair"
+    ]
+  },
+  {
+    "id": "q_206",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "大事なポイントで多い判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "普段しないプレー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "いつも通り",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "強打",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ロブのみ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "普段しないプレーを急に選びやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "pressure"
+    ]
+  },
+  {
+    "id": "q_207",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "相手がミスしそうな時の判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "相手を見すぎる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "自分の準備",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "前に出る",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "止まる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "見てしまって自分の準備が遅れやすいです。",
+    "tags": [
+      "decision",
+      "mistake",
+      "focus"
+    ]
+  },
+  {
+    "id": "q_208",
+    "categoryId": "decision_mistake",
+    "difficulty": 2,
+    "question": "試合終盤で多い判断ミスは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "決め急ぐ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "丁寧に続ける",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブだけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "強打する",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "焦って決め急ぎやすいです。最後ほど丁寧さが大切です。",
+    "tags": [
+      "decision",
+      "mistake",
+      "end"
+    ]
+  },
+  {
+    "id": "q_209",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "「グロッボ（Globo）」を使う一番大きな目的はどれですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "相手を下げて前を取る",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "一発で決める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "時間を稼ぐだけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "壁に当てる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手を後ろに下げて、自分たちがネットポジションを取るのが最大の目的です。",
+    "tags": [
+      "shots",
+      "tactics",
+      "lob"
+    ]
+  },
+  {
+    "id": "q_210",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "「バンデッハ（Bandeja）」を打つ主な場面は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "相手のロブに対して前を維持する時",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "チャンスボールを決める時",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "守備で壁際の時",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ時",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手のロブに対して、ネットポジションを維持しながらつなぐ時に使います。",
+    "tags": [
+      "shots",
+      "tactics",
+      "bandeja"
+    ]
+  },
+  {
+    "id": "q_211",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "「ビボラ（Víbora）」の特徴はどれですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "横回転で低く滑らせる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "高く山なりに上げる",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "無回転で落とす",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "壁に強く当てる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "横回転をかけて低く滑らせ、相手に打ちづらい返球をさせるショットです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "vibora"
+    ]
+  },
+  {
+    "id": "q_212",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "「チキータ（Chiquita）」を使う狙いは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "相手に下から打たせる",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "一発で抜く",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブを上げる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "時間を稼ぐ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手の足元へ落として、下から打たせることで自分たちが前に出やすくします。",
+    "tags": [
+      "shots",
+      "tactics",
+      "chiquita"
+    ]
+  },
+  {
+    "id": "q_213",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "「レマテ（Remate）」とは何ですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "スマッシュ全般",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ロブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ボレー",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "スマッシュ全般を指す用語です。",
+    "tags": [
+      "shots",
+      "tactics",
+      "smash"
+    ]
+  },
+  {
+    "id": "q_214",
+    "categoryId": "shot_tactics",
+    "difficulty": 1,
+    "question": "「バハーダ・デ・パレード」はどんなショットですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "壁からの高い球を打ち下ろす",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "壁際をロブで返す",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "低い球をすくう",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブの一種",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "壁から高く返ってきたボールを上から攻撃的に打ち下ろします。",
+    "tags": [
+      "shots",
+      "tactics",
+      "bajada"
+    ]
+  },
+  {
+    "id": "q_215",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "ロブが浅くなった時、相手が選びやすいショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "スマッシュ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "チキータ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ドロップ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "浅いロブはスマッシュやビボラのチャンスになりやすいです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "lob"
+    ]
+  },
+  {
+    "id": "q_216",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "守備時に壁を使って返す基本ショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "レボテ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "バンデッハ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ビボラ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "チキータ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "レボテが基本です。壁の跳ね返りを利用します。",
+    "tags": [
+      "shots",
+      "tactics",
+      "rebote"
+    ]
+  },
+  {
+    "id": "q_217",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "ネット前でつなぐ時に使う基本ショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ボレー",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ロブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "スマッシュ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "レボテ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ボレーが基本です。攻め急がずつなぐ意識が大切です。",
+    "tags": [
+      "shots",
+      "tactics",
+      "volley"
+    ]
+  },
+  {
+    "id": "q_218",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "相手が前にいる時に有効なショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "チキータ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "強打のみ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "壁打ち",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "足元へのチキータやロブが有効です。",
+    "tags": [
+      "shots",
+      "tactics"
+    ]
+  },
+  {
+    "id": "q_219",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "「ポル・トレス」が成立するショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "横へ3mを越えるスマッシュ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ロブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ボレー",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "スマッシュが横側3mフェンスを越えて外に出るショットです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "portres"
+    ]
+  },
+  {
+    "id": "q_220",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "「ポル・クアトロ」が成立するショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "後方4mを越えるスマッシュ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "ロブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "レボテ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "チキータ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "後方4mを越えて外へ飛び出す強力なスマッシュです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "porcuatro"
+    ]
+  },
+  {
+    "id": "q_221",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "相手の足元を攻める時に使う基本ショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "チキータ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "高いロブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "バハーダ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "チキータや低いボレーが有効です。",
+    "tags": [
+      "shots",
+      "tactics",
+      "feet"
+    ]
+  },
+  {
+    "id": "q_222",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "相手のロブに毎回スマッシュするのが危険な理由は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ミスしやすいから",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "点が入らないから",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ルール違反",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "遅いから",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ミスやカウンターを受けやすく、前を維持できないからです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "bandeja"
+    ]
+  },
+  {
+    "id": "q_223",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "初心者がまず覚えたい攻守の基本ショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ロブ・ボレー・レボテ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "スマッシュだけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "サーブだけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "ビボラだけ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ロブ・ボレー・レボテの3つが最重要です。",
+    "tags": [
+      "shots",
+      "tactics",
+      "basic"
+    ]
+  },
+  {
+    "id": "q_224",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "ロブの深さが大切な理由は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "相手に打たれやすいから",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "速くなるから",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "壁に当たるから",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "見やすいから",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "浅いと相手にスマッシュされやすいからです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "lob"
+    ]
+  },
+  {
+    "id": "q_225",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "ビボラを使う一番の目的は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "相手を崩す",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "時間を作る",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ロブ代わり",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "サーブ強化",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "低く滑らせて相手を崩すことです。",
+    "tags": [
+      "shots",
+      "tactics",
+      "vibora"
+    ]
+  },
+  {
+    "id": "q_226",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "バンデッハとビボラの共通目的は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "前を維持する",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "一発で決める",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "守備だけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "壁を使う",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "前を維持して主導権を持つことです。",
+    "tags": [
+      "shots",
+      "tactics"
+    ]
+  },
+  {
+    "id": "q_227",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "守備から攻撃へ切り替えるきっかけになりやすいショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ロブ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "スマッシュ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "サーブ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "壁打ち",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ロブやチキータが攻守の切り替えの基本です。",
+    "tags": [
+      "shots",
+      "tactics",
+      "transition"
+    ]
+  },
+  {
+    "id": "q_228",
+    "categoryId": "shot_tactics",
+    "difficulty": 2,
+    "question": "初心者が試合で最も多く使うべきショットは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ロブ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "スマッシュ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "ビボラ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "バハーダ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ロブは最重要ショットの一つで、試合の流れを変えます。",
+    "tags": [
+      "shots",
+      "tactics",
+      "basic"
+    ]
   }
 ]
