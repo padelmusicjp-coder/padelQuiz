@@ -14,11 +14,23 @@ import bgmChance2 from '../assets/BGM/bgm_chance2.mp3';
 import bgmChance3 from '../assets/BGM/bgm_chance3.mp3';
 import bgmChance4 from '../assets/BGM/bgm_chance4.mp3';
 import bgmChance5 from '../assets/BGM/bgm_chance5.mp3';
+import bgmChance6 from '../assets/BGM/bgm_chance6.mp3';
+import bgmChance7 from '../assets/BGM/bgm_chance7.mp3';
+import bgmChance8 from '../assets/BGM/bgm_chance8.mp3';
+import bgmChance9 from '../assets/BGM/bgm_chance9.mp3';
+import bgmChance10 from '../assets/BGM/bgm_chance10.mp3';
+import bgmChance11 from '../assets/BGM/bgm_chance11.mp3';
+import bgmChance12 from '../assets/BGM/bgm_chance12.mp3';
+import bgmChance13 from '../assets/BGM/bgm_chance13.mp3';
+
 import bgmPinch1 from '../assets/BGM/bgm_pinch1.mp3';
 import bgmPinch2 from '../assets/BGM/bgm_pinch2.mp3';
 import bgmPinch3 from '../assets/BGM/bgm_pinch3.mp3';
 import bgmPinch4 from '../assets/BGM/bgm_pinch4.mp3';
 import bgmPinch5 from '../assets/BGM/bgm_pinch5.mp3';
+import bgmPinch6 from '../assets/BGM/bgm_pinch6.mp3';
+import bgmPinch7 from '../assets/BGM/bgm_pinch7.mp3';
+import bgmPinch8 from '../assets/BGM/bgm_pinch8.mp3';
 
 import jingleClear0_1 from '../assets/jingle/clear0-1.mp3';
 import jingleClear0_2 from '../assets/jingle/clear0-2.mp3';
@@ -38,8 +50,15 @@ class AudioContextManager {
   // BGM
   private currentBgmMain: HTMLAudioElement | null = null;
   private fadeInterval: number | null = null;
-  private chanceBgms = [bgmChance1, bgmChance2, bgmChance3, bgmChance4, bgmChance5];
-  private pinchBgms = [bgmPinch1, bgmPinch2, bgmPinch3, bgmPinch4, bgmPinch5];
+  private chanceBgms = [
+    bgmChance1, bgmChance2, bgmChance3, bgmChance4, bgmChance5,
+    bgmChance6, bgmChance7, bgmChance8, bgmChance9, bgmChance10,
+    bgmChance11, bgmChance12, bgmChance13
+  ];
+  private pinchBgms = [
+    bgmPinch1, bgmPinch2, bgmPinch3, bgmPinch4, bgmPinch5,
+    bgmPinch6, bgmPinch7, bgmPinch8
+  ];
   private bgmState: 'title' | 'chance' | 'pinch' | 'none' = 'none';
 
   // Volume control states
