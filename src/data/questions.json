@@ -7612,5 +7612,665 @@
       "tactics",
       "basic"
     ]
+  },
+  {
+    "id": "q_229",
+    "categoryId": "conduct",
+    "difficulty": 1,
+    "question": "試合中に怒ってボールをコート外へ強く打ち出してしまいました。これは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "コード違反",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手の失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "自動失格",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "怒りをこめてボールをコート外へ打ち出す行為は「ボールの乱用」にあたりコード違反です。",
+    "tags": [
+      "conduct",
+      "ball"
+    ]
+  },
+  {
+    "id": "q_230",
+    "categoryId": "conduct",
+    "difficulty": 1,
+    "question": "ラケットを床に叩きつけた場合、どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "コード違反",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "試合続行不可",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "即失格",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ラケットや用具の乱用に該当し、警告やポイントペナルティの対象です。",
+    "tags": [
+      "conduct",
+      "racket"
+    ]
+  },
+  {
+    "id": "q_231",
+    "categoryId": "conduct",
+    "difficulty": 1,
+    "question": "相手選手に聞こえるように暴言を言った場合は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "コード違反",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "注意のみ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "得点になる",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "言葉による侮辱にあたりコード違反です。",
+    "tags": [
+      "conduct",
+      "language"
+    ]
+  },
+  {
+    "id": "q_232",
+    "categoryId": "conduct",
+    "difficulty": 1,
+    "question": "試合中に審判の許可なくコートを離れた場合は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "失格の可能性",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "警告のみ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の警告",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "無断でコートを離れると失格になることがあります。",
+    "tags": [
+      "conduct",
+      "court"
+    ]
+  },
+  {
+    "id": "q_233",
+    "categoryId": "conduct",
+    "difficulty": 1,
+    "question": "試合コール後すぐにコートへ行かず準備が遅れた場合は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "ペナルティ対象",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手の失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "再試合",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "時間厳守違反でノーショウやゲームスコア不利になることがあります。",
+    "tags": [
+      "conduct",
+      "time"
+    ]
+  },
+  {
+    "id": "q_234",
+    "categoryId": "conduct",
+    "difficulty": 1,
+    "question": "試合中にベストを尽くしていないと判断された場合は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "失格の可能性",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "注意だけ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の得点",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "故意にベストを尽くしていないと判断されると失格になることがあります。",
+    "tags": [
+      "conduct",
+      "sportsmanship"
+    ]
+  },
+  {
+    "id": "q_235",
+    "categoryId": "conduct",
+    "difficulty": 1,
+    "question": "ポイント間に必要以上に時間をかけた場合は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "タイムバイオレーション",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "失格",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手の警告",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "20秒ルール違反でタイムバイオレーションの対象です。",
+    "tags": [
+      "conduct",
+      "time"
+    ]
+  },
+  {
+    "id": "q_236",
+    "categoryId": "conduct",
+    "difficulty": 1,
+    "question": "相手のプレーを妨害する大声の応援は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "コード違反",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "得点になる",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "再試合",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "妨害応援は禁止されており警告やポイントペナルティになります。",
+    "tags": [
+      "conduct",
+      "cheer"
+    ]
+  },
+  {
+    "id": "q_237",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "1回目のコード違反で一般的に科されるものは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "警告",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "1ポイント失う",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "1ゲーム失う",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "失格",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "1回目は通常「警告」です。",
+    "tags": [
+      "conduct",
+      "penalty"
+    ]
+  },
+  {
+    "id": "q_238",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "2回目のコード違反では通常どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "1ポイント失う",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "警告",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "1ゲーム失う",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "失格",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "2回目は1ポイント失います。",
+    "tags": [
+      "conduct",
+      "penalty"
+    ]
+  },
+  {
+    "id": "q_239",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "3回目以降のコード違反では通常どうなりますか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "1ゲーム失う",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "1ポイント失う",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "警告",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "即失格",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "その都度1ゲームを失います。",
+    "tags": [
+      "conduct",
+      "penalty"
+    ]
+  },
+  {
+    "id": "q_240",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "悪質な行為の場合、1回目でもあり得る処分は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "即失格",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "警告のみ",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "注意のみ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "何もない",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "重大・悪質な場合は即失格もあり得ます。",
+    "tags": [
+      "conduct",
+      "severe"
+    ]
+  },
+  {
+    "id": "q_241",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "ベンチコーチが相手に野次を飛ばした場合は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "選手にもペナルティ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手の失点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "再試合",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ベンチコーチもコード違反の対象で、選手にもペナルティが科されます。",
+    "tags": [
+      "conduct",
+      "coach"
+    ]
+  },
+  {
+    "id": "q_242",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "ポイント間にベンチコーチから戦術アドバイスを受けるのは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "禁止",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "推奨",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "相手も可",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ポイント間のアドバイスは禁止です。エンドチェンジ時のみ可能です。",
+    "tags": [
+      "conduct",
+      "coach"
+    ]
+  },
+  {
+    "id": "q_243",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "セットブレーク中にベンチコーチから助言を受けるのは？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "可能",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "禁止",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "失格",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "注意",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "セットブレーク中は認められています。",
+    "tags": [
+      "conduct",
+      "coach"
+    ]
+  },
+  {
+    "id": "q_244",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "怒ってネットを蹴った場合は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "コード違反",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "自動得点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "再試合",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "施設や設備への損傷行為にあたりコード違反です。",
+    "tags": [
+      "conduct",
+      "facility"
+    ]
+  },
+  {
+    "id": "q_245",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "試合中に観客へ暴言を吐いた場合は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "コード違反",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "相手の得点",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "再試合",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "観客に対する侮辱もコード違反です。",
+    "tags": [
+      "conduct",
+      "language"
+    ]
+  },
+  {
+    "id": "q_246",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "無断欠場（No Show）はサスペンションポイントの対象ですか？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "対象",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "対象外",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "注意のみ",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "返金あり",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "大会無断欠場は対象です。",
+    "tags": [
+      "conduct",
+      "noshow"
+    ]
+  },
+  {
+    "id": "q_247",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "同日程の複数大会にエントリーしてしまう行為は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "禁止",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "問題ない",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "推奨",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "抽選",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ダブルエントリーでコード違反です。",
+    "tags": [
+      "conduct",
+      "entry"
+    ]
+  },
+  {
+    "id": "q_248",
+    "categoryId": "conduct",
+    "difficulty": 2,
+    "question": "スポーツマンシップに反する行為で最も大切な考え方は？",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "敬意を持つ",
+        "isCorrect": true
+      },
+      {
+        "id": "c2",
+        "text": "勝てばよい",
+        "isCorrect": false
+      },
+      {
+        "id": "c3",
+        "text": "感情優先",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "無言",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "相手・審判・観客への敬意を持つことが基本です。",
+    "tags": [
+      "conduct",
+      "sportsmanship"
+    ]
   }
 ]

@@ -66,6 +66,9 @@ const QuizScreen: React.FC<QuizScreenProps> = ({
       case 'foul_manner': return '反則・マナー';
       case 'tactics_mistake': return 'あるあるミス';
       case 'mental_match': return 'メンタル';
+      case 'decision_mistake': return '判断ミス';
+      case 'shot_tactics': return 'ショット戦術';
+      case 'conduct': return 'コード違反';
       default: return 'その他';
     }
   };

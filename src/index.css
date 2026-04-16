@@ -333,6 +333,9 @@ button:disabled {
 .category-badge[data-cat="foul_manner"] { background-color: #C62828; } /* red */
 .category-badge[data-cat="tactics_mistake"] { background-color: #AD1457; } /* pink-purple */
 .category-badge[data-cat="mental_match"] { background-color: #00695C; } /* teal */
+.category-badge[data-cat="decision_mistake"] { background-color: #FF8F00; } /* amber */
+.category-badge[data-cat="shot_tactics"] { background-color: #455A64; } /* blue-grey */
+.category-badge[data-cat="conduct"] { background-color: #6D4C41; } /* brown */
 
 .question-text {
   font-size: 1.1rem;
